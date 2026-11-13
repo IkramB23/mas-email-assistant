@@ -1,0 +1,1216 @@
+01:22:16.086 [6d54de] router     -> memory           REQUEST        history? thread=t01@test (raw)
+01:22:16.102 [6d54de] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.106 [6d54de] router     -> administration   CFP            competence? 'Meeting about my MAS project'
+01:22:16.110 [6d54de] administration -> router           REFUSE         no evidence of competence
+01:22:16.106 [6d54de] router     -> generic          CFP            competence? 'Meeting about my MAS project'
+01:22:16.113 [6d54de] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.106 [6d54de] router     -> student          CFP            competence? 'Meeting about my MAS project'
+01:22:16.126 [6d54de] student    -> router           PROPOSE        bid 0.80 [evidence 6.5, sender matches *@etu.univ-example.fr, sender role 'student', body keywords [cours, course]]
+01:22:16.106 [6d54de] router     -> supermasproject  CFP            competence? 'Meeting about my MAS project'
+01:22:16.130 [6d54de] supermasproject -> router           REFUSE         no evidence of competence
+01:22:16.106 [6d54de] router     -> teacher          CFP            competence? 'Meeting about my MAS project'
+01:22:16.134 [6d54de] teacher    -> router           PROPOSE        bid 0.33 [evidence 1.6, body keywords [cours, course]]
+01:22:16.143 [443268] router     -> memory           REQUEST        history? thread=t02@test (raw)
+01:22:16.144 [443268] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.145 [443268] router     -> administration   CFP            competence? 'Examen de SMA'
+01:22:16.147 [443268] administration -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [salle]]
+01:22:16.145 [443268] router     -> generic          CFP            competence? 'Examen de SMA'
+01:22:16.148 [443268] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.145 [443268] router     -> student          CFP            competence? 'Examen de SMA'
+01:22:16.152 [443268] student    -> router           PROPOSE        bid 0.86 [evidence 8.0, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [exam, examen]]
+01:22:16.145 [443268] router     -> supermasproject  CFP            competence? 'Examen de SMA'
+01:22:16.153 [443268] supermasproject -> router           REFUSE         no evidence of competence
+01:22:16.145 [443268] router     -> teacher          CFP            competence? 'Examen de SMA'
+01:22:16.156 [443268] teacher    -> router           PROPOSE        bid 0.59 [evidence 3.6, subject keywords [exam, examen]]
+01:22:16.158 [103b71] router     -> memory           REQUEST        history? thread=t03@test (raw)
+01:22:16.158 [103b71] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.159 [103b71] router     -> administration   CFP            competence? 'Project deadline extension'
+01:22:16.160 [103b71] administration -> router           REFUSE         no evidence of competence
+01:22:16.159 [103b71] router     -> generic          CFP            competence? 'Project deadline extension'
+01:22:16.160 [103b71] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.159 [103b71] router     -> student          CFP            competence? 'Project deadline extension'
+01:22:16.163 [103b71] student    -> router           PROPOSE        bid 0.91 [evidence 9.5, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [project deadline, extension, deadline]]
+01:22:16.159 [103b71] router     -> supermasproject  CFP            competence? 'Project deadline extension'
+01:22:16.166 [103b71] supermasproject -> router           REFUSE         no evidence of competence
+01:22:16.159 [103b71] router     -> teacher          CFP            competence? 'Project deadline extension'
+01:22:16.167 [103b71] teacher    -> router           REFUSE         no evidence of competence
+01:22:16.168 [0f6374] router     -> memory           REQUEST        history? thread=t04@test (raw)
+01:22:16.168 [0f6374] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.169 [0f6374] router     -> administration   CFP            competence? 'Recherche de stage'
+01:22:16.170 [0f6374] administration -> router           REFUSE         no evidence of competence
+01:22:16.169 [0f6374] router     -> generic          CFP            competence? 'Recherche de stage'
+01:22:16.171 [0f6374] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.169 [0f6374] router     -> student          CFP            competence? 'Recherche de stage'
+01:22:16.173 [0f6374] student    -> router           PROPOSE        bid 0.76 [evidence 5.8, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [stage]]
+01:22:16.169 [0f6374] router     -> supermasproject  CFP            competence? 'Recherche de stage'
+01:22:16.174 [0f6374] supermasproject -> router           REFUSE         no evidence of competence
+01:22:16.169 [0f6374] router     -> teacher          CFP            competence? 'Recherche de stage'
+01:22:16.177 [0f6374] teacher    -> router           REFUSE         no evidence of competence
+01:22:16.179 [164686] router     -> memory           REQUEST        history? thread=t05@test (raw)
+01:22:16.179 [164686] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.180 [164686] router     -> administration   CFP            competence? 'Question about the BDI lecture'
+01:22:16.181 [164686] administration -> router           REFUSE         no evidence of competence
+01:22:16.180 [164686] router     -> generic          CFP            competence? 'Question about the BDI lecture'
+01:22:16.183 [164686] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.180 [164686] router     -> student          CFP            competence? 'Question about the BDI lecture'
+01:22:16.186 [164686] student    -> router           PROPOSE        bid 0.82 [evidence 6.8, subject keywords [bdi, lecture], body keywords [cours, course]]
+01:22:16.180 [164686] router     -> supermasproject  CFP            competence? 'Question about the BDI lecture'
+01:22:16.188 [164686] supermasproject -> router           REFUSE         no evidence of competence
+01:22:16.180 [164686] router     -> teacher          CFP            competence? 'Question about the BDI lecture'
+01:22:16.195 [164686] teacher    -> router           PROPOSE        bid 0.63 [evidence 4.0, subject keywords [lecture], body keywords [cours, slides, course]]
+01:22:16.197 [c487b7] router     -> memory           REQUEST        history? thread=t06@test (raw)
+01:22:16.200 [c487b7] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.204 [c487b7] router     -> administration   CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:22:16.206 [c487b7] administration -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [salle]]
+01:22:16.204 [c487b7] router     -> generic          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:22:16.209 [c487b7] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.204 [c487b7] router     -> student          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:22:16.213 [c487b7] student    -> router           PROPOSE        bid 0.31 [evidence 1.5, subject keywords [tp]]
+01:22:16.204 [c487b7] router     -> supermasproject  CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:22:16.216 [c487b7] supermasproject -> router           REFUSE         no evidence of competence
+01:22:16.204 [c487b7] router     -> teacher          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:22:16.221 [c487b7] teacher    -> router           PROPOSE        bid 0.71 [evidence 5.0, sender role 'lecturer', subject keywords [groupes de tp, tp]]
+01:22:16.222 [681b14] router     -> memory           REQUEST        history? thread=t07@test (raw)
+01:22:16.223 [681b14] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.225 [681b14] router     -> administration   CFP            competence? 'Correction des copies de SMA'
+01:22:16.227 [681b14] administration -> router           REFUSE         no evidence of competence
+01:22:16.225 [681b14] router     -> generic          CFP            competence? 'Correction des copies de SMA'
+01:22:16.229 [681b14] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.225 [681b14] router     -> student          CFP            competence? 'Correction des copies de SMA'
+01:22:16.232 [681b14] student    -> router           PROPOSE        bid 0.53 [evidence 3.0, body keywords [exam, examen]]
+01:22:16.225 [681b14] router     -> supermasproject  CFP            competence? 'Correction des copies de SMA'
+01:22:16.236 [681b14] supermasproject -> router           PROPOSE        bid 0.22 [evidence 1.0, sender tagged 'supermasproject']
+01:22:16.225 [681b14] router     -> teacher          CFP            competence? 'Correction des copies de SMA'
+01:22:16.241 [681b14] teacher    -> router           PROPOSE        bid 0.86 [evidence 8.0, sender role 'lecturer', subject keywords [correction, copies], body keywords [exam, examen]]
+01:22:16.243 [dcba54] router     -> memory           REQUEST        history? thread=t08@test (raw)
+01:22:16.244 [dcba54] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.246 [dcba54] router     -> administration   CFP            competence? 'Jury du M2 IA'
+01:22:16.248 [dcba54] administration -> router           REFUSE         no evidence of competence
+01:22:16.246 [dcba54] router     -> generic          CFP            competence? 'Jury du M2 IA'
+01:22:16.252 [dcba54] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.246 [dcba54] router     -> student          CFP            competence? 'Jury du M2 IA'
+01:22:16.255 [dcba54] student    -> router           REFUSE         no evidence of competence
+01:22:16.246 [dcba54] router     -> supermasproject  CFP            competence? 'Jury du M2 IA'
+01:22:16.259 [dcba54] supermasproject -> router           PROPOSE        bid 0.22 [evidence 1.0, sender tagged 'supermasproject']
+01:22:16.246 [dcba54] router     -> teacher          CFP            competence? 'Jury du M2 IA'
+01:22:16.262 [dcba54] teacher    -> router           PROPOSE        bid 0.61 [evidence 3.8, sender role 'lecturer', subject keywords [jury]]
+01:22:16.264 [aaeed2] router     -> memory           REQUEST        history? thread=t09@test (raw)
+01:22:16.265 [aaeed2] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.266 [aaeed2] router     -> administration   CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:22:16.268 [aaeed2] administration -> router           PROPOSE        bid 0.68 [evidence 4.5, sender role 'administration', subject keywords [declaration de service]]
+01:22:16.266 [aaeed2] router     -> generic          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:22:16.270 [aaeed2] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.266 [aaeed2] router     -> student          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:22:16.271 [aaeed2] student    -> router           REFUSE         no evidence of competence
+01:22:16.266 [aaeed2] router     -> supermasproject  CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:22:16.274 [aaeed2] supermasproject -> router           REFUSE         no evidence of competence
+01:22:16.266 [aaeed2] router     -> teacher          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:22:16.277 [aaeed2] teacher    -> router           REFUSE         no evidence of competence
+01:22:16.278 [62d094] router     -> memory           REQUEST        history? thread=t10@test (raw)
+01:22:16.279 [62d094] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.280 [62d094] router     -> administration   CFP            competence? 'Reimbursement of your trip to Berlin'
+01:22:16.281 [62d094] administration -> router           PROPOSE        bid 0.61 [evidence 3.8, sender role 'administration', subject keywords [reimbursement]]
+01:22:16.280 [62d094] router     -> generic          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:22:16.282 [62d094] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.280 [62d094] router     -> student          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:22:16.287 [62d094] student    -> router           REFUSE         no evidence of competence
+01:22:16.280 [62d094] router     -> supermasproject  CFP            competence? 'Reimbursement of your trip to Berlin'
+01:22:16.290 [62d094] supermasproject -> router           REFUSE         no evidence of competence
+01:22:16.280 [62d094] router     -> teacher          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:22:16.292 [62d094] teacher    -> router           REFUSE         no evidence of competence
+01:22:16.293 [dcebae] router     -> memory           REQUEST        history? thread=t11@test (raw)
+01:22:16.293 [dcebae] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.294 [dcebae] router     -> administration   CFP            competence? 'Votre demande de réservation de salle'
+01:22:16.295 [dcebae] administration -> router           PROPOSE        bid 0.68 [evidence 4.5, sender role 'administration', subject keywords [salle, reservation]]
+01:22:16.294 [dcebae] router     -> generic          CFP            competence? 'Votre demande de réservation de salle'
+01:22:16.295 [dcebae] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.294 [dcebae] router     -> student          CFP            competence? 'Votre demande de réservation de salle'
+01:22:16.296 [dcebae] student    -> router           REFUSE         no evidence of competence
+01:22:16.294 [dcebae] router     -> supermasproject  CFP            competence? 'Votre demande de réservation de salle'
+01:22:16.297 [dcebae] supermasproject -> router           REFUSE         no evidence of competence
+01:22:16.294 [dcebae] router     -> teacher          CFP            competence? 'Votre demande de réservation de salle'
+01:22:16.298 [dcebae] teacher    -> router           REFUSE         no evidence of competence
+01:22:16.298 [ef5a7e] router     -> memory           REQUEST        history? thread=t12@test (raw)
+01:22:16.299 [ef5a7e] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.299 [ef5a7e] router     -> administration   CFP            competence? 'D3.1 timeline'
+01:22:16.299 [ef5a7e] administration -> router           REFUSE         no evidence of competence
+01:22:16.299 [ef5a7e] router     -> generic          CFP            competence? 'D3.1 timeline'
+01:22:16.300 [ef5a7e] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.299 [ef5a7e] router     -> student          CFP            competence? 'D3.1 timeline'
+01:22:16.301 [ef5a7e] student    -> router           REFUSE         no evidence of competence
+01:22:16.299 [ef5a7e] router     -> supermasproject  CFP            competence? 'D3.1 timeline'
+01:22:16.301 [ef5a7e] supermasproject -> router           PROPOSE        bid 0.75 [evidence 5.5, sender role 'partner', sender tagged 'supermasproject', subject keywords [d3.1]]
+01:22:16.299 [ef5a7e] router     -> teacher          CFP            competence? 'D3.1 timeline'
+01:22:16.303 [ef5a7e] teacher    -> router           REFUSE         no evidence of competence
+01:22:16.304 [7f90d9] router     -> memory           REQUEST        history? thread=t13@test (raw)
+01:22:16.304 [7f90d9] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.304 [7f90d9] router     -> administration   CFP            competence? 'Intégration dans le démonstrateur'
+01:22:16.305 [7f90d9] administration -> router           PROPOSE        bid 0.22 [evidence 1.0, body keywords [form]]
+01:22:16.304 [7f90d9] router     -> generic          CFP            competence? 'Intégration dans le démonstrateur'
+01:22:16.305 [7f90d9] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.304 [7f90d9] router     -> student          CFP            competence? 'Intégration dans le démonstrateur'
+01:22:16.306 [7f90d9] student    -> router           REFUSE         no evidence of competence
+01:22:16.304 [7f90d9] router     -> supermasproject  CFP            competence? 'Intégration dans le démonstrateur'
+01:22:16.307 [7f90d9] supermasproject -> router           PROPOSE        bid 0.70 [evidence 4.8, sender role 'partner', sender tagged 'supermasproject', subject keywords [demonstrateur]]
+01:22:16.304 [7f90d9] router     -> teacher          CFP            competence? 'Intégration dans le démonstrateur'
+01:22:16.308 [7f90d9] teacher    -> router           REFUSE         no evidence of competence
+01:22:16.308 [ed7416] router     -> memory           REQUEST        history? thread=t14@test (raw)
+01:22:16.309 [ed7416] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.309 [ed7416] router     -> administration   CFP            competence? 'Résultats T3.2 pour le WP3'
+01:22:16.310 [ed7416] administration -> router           REFUSE         no evidence of competence
+01:22:16.309 [ed7416] router     -> generic          CFP            competence? 'Résultats T3.2 pour le WP3'
+01:22:16.310 [ed7416] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.309 [ed7416] router     -> student          CFP            competence? 'Résultats T3.2 pour le WP3'
+01:22:16.311 [ed7416] student    -> router           REFUSE         no evidence of competence
+01:22:16.309 [ed7416] router     -> supermasproject  CFP            competence? 'Résultats T3.2 pour le WP3'
+01:22:16.312 [ed7416] supermasproject -> router           PROPOSE        bid 0.63 [evidence 4.0, sender tagged 'supermasproject', subject keywords [wp3]]
+01:22:16.309 [ed7416] router     -> teacher          CFP            competence? 'Résultats T3.2 pour le WP3'
+01:22:16.313 [ed7416] teacher    -> router           PROPOSE        bid 0.31 [evidence 1.5, sender role 'lecturer']
+01:22:16.313 [943dc7] router     -> memory           REQUEST        history? thread=t15@test (raw)
+01:22:16.313 [943dc7] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.314 [943dc7] router     -> administration   CFP            competence? 'Salle pour jeudi'
+01:22:16.314 [943dc7] administration -> router           PROPOSE        bid 0.26 [evidence 1.2, subject keywords [salle]]
+01:22:16.314 [943dc7] router     -> generic          CFP            competence? 'Salle pour jeudi'
+01:22:16.315 [943dc7] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.314 [943dc7] router     -> student          CFP            competence? 'Salle pour jeudi'
+01:22:16.316 [943dc7] student    -> router           PROPOSE        bid 0.22 [evidence 1.0, body keywords [soutenance]]
+01:22:16.314 [943dc7] router     -> supermasproject  CFP            competence? 'Salle pour jeudi'
+01:22:16.317 [943dc7] supermasproject -> router           PROPOSE        bid 0.46 [evidence 2.5, sender tagged 'supermasproject', body keywords [pleniere]]
+01:22:16.314 [943dc7] router     -> teacher          CFP            competence? 'Salle pour jeudi'
+01:22:16.318 [943dc7] teacher    -> router           PROPOSE        bid 0.46 [evidence 2.5, sender role 'lecturer', body keywords [soutenance]]
+01:22:16.319 [8e0709] router     -> memory           REQUEST        history? thread=t16@test (raw)
+01:22:16.319 [8e0709] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.319 [8e0709] router     -> administration   CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:22:16.320 [8e0709] administration -> router           REFUSE         no evidence of competence
+01:22:16.319 [8e0709] router     -> generic          CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:22:16.320 [8e0709] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.319 [8e0709] router     -> student          CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:22:16.321 [8e0709] student    -> router           PROPOSE        bid 0.84 [evidence 7.3, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [stage], body keywords [cours]]
+01:22:16.319 [8e0709] router     -> supermasproject  CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:22:16.321 [8e0709] supermasproject -> router           PROPOSE        bid 0.93 [evidence 10.5, subject keywords [supermas, supermasproject]]
+01:22:16.319 [8e0709] router     -> teacher          CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:22:16.322 [8e0709] teacher    -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [cours]]
+01:22:16.322 [e63f9b] router     -> memory           REQUEST        history? thread=t17@test (raw)
+01:22:16.323 [e63f9b] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.323 [e63f9b] router     -> administration   CFP            competence? 'Invitation to review a manuscript'
+01:22:16.323 [e63f9b] administration -> router           REFUSE         no evidence of competence
+01:22:16.323 [e63f9b] router     -> generic          CFP            competence? 'Invitation to review a manuscript'
+01:22:16.325 [e63f9b] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.323 [e63f9b] router     -> student          CFP            competence? 'Invitation to review a manuscript'
+01:22:16.325 [e63f9b] student    -> router           REFUSE         no evidence of competence
+01:22:16.323 [e63f9b] router     -> supermasproject  CFP            competence? 'Invitation to review a manuscript'
+01:22:16.326 [e63f9b] supermasproject -> router           REFUSE         no evidence of competence
+01:22:16.323 [e63f9b] router     -> teacher          CFP            competence? 'Invitation to review a manuscript'
+01:22:16.327 [e63f9b] teacher    -> router           REFUSE         no evidence of competence
+01:22:16.328 [721411] router     -> memory           REQUEST        history? thread=t18@test (raw)
+01:22:16.328 [721411] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.330 [721411] router     -> administration   CFP            competence? 'Talk at our AI meetup?'
+01:22:16.331 [721411] administration -> router           REFUSE         no evidence of competence
+01:22:16.330 [721411] router     -> generic          CFP            competence? 'Talk at our AI meetup?'
+01:22:16.332 [721411] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.330 [721411] router     -> student          CFP            competence? 'Talk at our AI meetup?'
+01:22:16.333 [721411] student    -> router           REFUSE         no evidence of competence
+01:22:16.330 [721411] router     -> supermasproject  CFP            competence? 'Talk at our AI meetup?'
+01:22:16.334 [721411] supermasproject -> router           REFUSE         no evidence of competence
+01:22:16.330 [721411] router     -> teacher          CFP            competence? 'Talk at our AI meetup?'
+01:22:16.335 [721411] teacher    -> router           REFUSE         no evidence of competence
+01:22:16.336 [b73fb9] router     -> memory           REQUEST        history? thread=t19@test (raw)
+01:22:16.336 [b73fb9] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.336 [b73fb9] router     -> administration   CFP            competence? 'Saisie des notes du module SMA'
+01:22:16.337 [b73fb9] administration -> router           PROPOSE        bid 0.31 [evidence 1.5, sender role 'administration']
+01:22:16.336 [b73fb9] router     -> generic          CFP            competence? 'Saisie des notes du module SMA'
+01:22:16.338 [b73fb9] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.336 [b73fb9] router     -> student          CFP            competence? 'Saisie des notes du module SMA'
+01:22:16.338 [b73fb9] student    -> router           REFUSE         no evidence of competence
+01:22:16.336 [b73fb9] router     -> supermasproject  CFP            competence? 'Saisie des notes du module SMA'
+01:22:16.339 [b73fb9] supermasproject -> router           REFUSE         no evidence of competence
+01:22:16.336 [b73fb9] router     -> teacher          CFP            competence? 'Saisie des notes du module SMA'
+01:22:16.340 [b73fb9] teacher    -> router           REFUSE         no evidence of competence
+01:22:16.341 [3cbe03] router     -> memory           REQUEST        history? thread=t20@test (raw)
+01:22:16.342 [3cbe03] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:16.342 [3cbe03] router     -> administration   CFP            competence? 'Tournoi de badminton'
+01:22:16.349 [3cbe03] administration -> router           REFUSE         no evidence of competence
+01:22:16.342 [3cbe03] router     -> generic          CFP            competence? 'Tournoi de badminton'
+01:22:16.352 [3cbe03] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:22:16.342 [3cbe03] router     -> student          CFP            competence? 'Tournoi de badminton'
+01:22:16.354 [3cbe03] student    -> router           REFUSE         no evidence of competence
+01:22:16.342 [3cbe03] router     -> supermasproject  CFP            competence? 'Tournoi de badminton'
+01:22:16.354 [3cbe03] supermasproject -> router           REFUSE         no evidence of competence
+01:22:16.342 [3cbe03] router     -> teacher          CFP            competence? 'Tournoi de badminton'
+01:22:16.356 [3cbe03] teacher    -> router           REFUSE         no evidence of competence
+01:22:16.359 [3211f6] router     -> memory           REQUEST        history? thread=t01@test (raw)
+01:22:16.360 [3211f6] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:25.068 [363f16] router     -> memory           REQUEST        history? thread=t02@test (raw)
+01:22:25.070 [363f16] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:39.618 [706a80] router     -> memory           REQUEST        history? thread=t03@test (raw)
+01:22:39.620 [706a80] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:48.875 [b26952] router     -> memory           REQUEST        history? thread=t04@test (raw)
+01:22:48.876 [b26952] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:22:58.396 [18d54d] router     -> memory           REQUEST        history? thread=t05@test (raw)
+01:22:58.399 [18d54d] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:23:07.587 [3ec300] router     -> memory           REQUEST        history? thread=t06@test (raw)
+01:23:07.589 [3ec300] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:23:18.651 [f62da1] router     -> memory           REQUEST        history? thread=t07@test (raw)
+01:23:18.653 [f62da1] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:23:33.026 [bbe1e8] router     -> memory           REQUEST        history? thread=t08@test (raw)
+01:23:33.028 [bbe1e8] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:23:45.879 [9f780d] router     -> memory           REQUEST        history? thread=t09@test (raw)
+01:23:45.882 [9f780d] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:23:56.195 [d49160] router     -> memory           REQUEST        history? thread=t10@test (raw)
+01:23:56.197 [d49160] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:24:05.502 [f9f32d] router     -> memory           REQUEST        history? thread=t11@test (raw)
+01:24:05.504 [f9f32d] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:24:18.049 [5130fc] router     -> memory           REQUEST        history? thread=t12@test (raw)
+01:24:18.051 [5130fc] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:24:30.177 [f6329e] router     -> memory           REQUEST        history? thread=t13@test (raw)
+01:24:30.179 [f6329e] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:24:42.695 [9f7eb6] router     -> memory           REQUEST        history? thread=t14@test (raw)
+01:24:42.697 [9f7eb6] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:24:56.699 [cec5ef] router     -> memory           REQUEST        history? thread=t15@test (raw)
+01:24:56.701 [cec5ef] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:25:07.987 [d62bb6] router     -> memory           REQUEST        history? thread=t16@test (raw)
+01:25:07.988 [d62bb6] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:25:19.695 [99828c] router     -> memory           REQUEST        history? thread=t17@test (raw)
+01:25:19.696 [99828c] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:25:30.070 [67ba0b] router     -> memory           REQUEST        history? thread=t18@test (raw)
+01:25:30.071 [67ba0b] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:25:40.920 [4ba550] router     -> memory           REQUEST        history? thread=t19@test (raw)
+01:25:40.922 [4ba550] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:25:56.558 [d64281] router     -> memory           REQUEST        history? thread=t20@test (raw)
+01:25:56.560 [d64281] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:26:07.421 [7b8aca] router     -> memory           REQUEST        history? thread=t01@test (raw)
+01:26:07.423 [7b8aca] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:26:07.424 [7b8aca] router     -> administration   CFP            competence? 'Meeting about my MAS project'
+01:26:07.426 [7b8aca] administration -> router           REFUSE         no evidence of competence
+01:26:07.424 [7b8aca] router     -> generic          CFP            competence? 'Meeting about my MAS project'
+01:26:07.428 [7b8aca] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:26:07.424 [7b8aca] router     -> student          CFP            competence? 'Meeting about my MAS project'
+01:26:07.431 [7b8aca] student    -> router           PROPOSE        bid 0.80 [evidence 6.5, sender matches *@etu.univ-example.fr, sender role 'student', body keywords [cours, course]]
+01:26:07.424 [7b8aca] router     -> supermasproject  CFP            competence? 'Meeting about my MAS project'
+01:26:07.434 [7b8aca] supermasproject -> router           REFUSE         no evidence of competence
+01:26:07.424 [7b8aca] router     -> teacher          CFP            competence? 'Meeting about my MAS project'
+01:26:07.437 [7b8aca] teacher    -> router           PROPOSE        bid 0.33 [evidence 1.6, body keywords [cours, course]]
+01:26:17.108 [dd7d80] router     -> memory           REQUEST        history? thread=t02@test (raw)
+01:26:17.110 [dd7d80] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:26:17.111 [dd7d80] router     -> administration   CFP            competence? 'Examen de SMA'
+01:26:17.114 [dd7d80] administration -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [salle]]
+01:26:17.111 [dd7d80] router     -> generic          CFP            competence? 'Examen de SMA'
+01:26:17.116 [dd7d80] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:26:17.111 [dd7d80] router     -> student          CFP            competence? 'Examen de SMA'
+01:26:17.119 [dd7d80] student    -> router           PROPOSE        bid 0.86 [evidence 8.0, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [exam, examen]]
+01:26:17.111 [dd7d80] router     -> supermasproject  CFP            competence? 'Examen de SMA'
+01:26:17.121 [dd7d80] supermasproject -> router           REFUSE         no evidence of competence
+01:26:17.111 [dd7d80] router     -> teacher          CFP            competence? 'Examen de SMA'
+01:26:17.124 [dd7d80] teacher    -> router           PROPOSE        bid 0.59 [evidence 3.6, subject keywords [exam, examen]]
+01:26:31.010 [fc8826] router     -> memory           REQUEST        history? thread=t03@test (raw)
+01:26:31.012 [fc8826] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:26:31.013 [fc8826] router     -> administration   CFP            competence? 'Project deadline extension'
+01:26:31.015 [fc8826] administration -> router           REFUSE         no evidence of competence
+01:26:31.013 [fc8826] router     -> generic          CFP            competence? 'Project deadline extension'
+01:26:31.017 [fc8826] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:26:31.013 [fc8826] router     -> student          CFP            competence? 'Project deadline extension'
+01:26:31.020 [fc8826] student    -> router           PROPOSE        bid 0.91 [evidence 9.5, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [project deadline, extension, deadline]]
+01:26:31.013 [fc8826] router     -> supermasproject  CFP            competence? 'Project deadline extension'
+01:26:31.022 [fc8826] supermasproject -> router           REFUSE         no evidence of competence
+01:26:31.013 [fc8826] router     -> teacher          CFP            competence? 'Project deadline extension'
+01:26:31.025 [fc8826] teacher    -> router           REFUSE         no evidence of competence
+01:26:39.932 [7cdfc8] router     -> memory           REQUEST        history? thread=t04@test (raw)
+01:26:39.934 [7cdfc8] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:26:39.935 [7cdfc8] router     -> administration   CFP            competence? 'Recherche de stage'
+01:26:39.938 [7cdfc8] administration -> router           REFUSE         no evidence of competence
+01:26:39.935 [7cdfc8] router     -> generic          CFP            competence? 'Recherche de stage'
+01:26:39.941 [7cdfc8] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:26:39.935 [7cdfc8] router     -> student          CFP            competence? 'Recherche de stage'
+01:26:39.945 [7cdfc8] student    -> router           PROPOSE        bid 0.76 [evidence 5.8, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [stage]]
+01:26:39.935 [7cdfc8] router     -> supermasproject  CFP            competence? 'Recherche de stage'
+01:26:39.950 [7cdfc8] supermasproject -> router           REFUSE         no evidence of competence
+01:26:39.935 [7cdfc8] router     -> teacher          CFP            competence? 'Recherche de stage'
+01:26:39.953 [7cdfc8] teacher    -> router           REFUSE         no evidence of competence
+01:26:50.038 [d23289] router     -> memory           REQUEST        history? thread=t05@test (raw)
+01:26:50.040 [d23289] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:26:50.041 [d23289] router     -> administration   CFP            competence? 'Question about the BDI lecture'
+01:26:50.044 [d23289] administration -> router           REFUSE         no evidence of competence
+01:26:50.041 [d23289] router     -> generic          CFP            competence? 'Question about the BDI lecture'
+01:26:50.047 [d23289] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:26:50.041 [d23289] router     -> student          CFP            competence? 'Question about the BDI lecture'
+01:26:50.050 [d23289] student    -> router           PROPOSE        bid 0.82 [evidence 6.8, subject keywords [bdi, lecture], body keywords [cours, course]]
+01:26:50.041 [d23289] router     -> supermasproject  CFP            competence? 'Question about the BDI lecture'
+01:26:50.055 [d23289] supermasproject -> router           REFUSE         no evidence of competence
+01:26:50.041 [d23289] router     -> teacher          CFP            competence? 'Question about the BDI lecture'
+01:26:50.059 [d23289] teacher    -> router           PROPOSE        bid 0.63 [evidence 4.0, subject keywords [lecture], body keywords [cours, slides, course]]
+01:26:59.447 [46759b] router     -> memory           REQUEST        history? thread=t06@test (raw)
+01:26:59.449 [46759b] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:26:59.451 [46759b] router     -> administration   CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:26:59.453 [46759b] administration -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [salle]]
+01:26:59.451 [46759b] router     -> generic          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:26:59.455 [46759b] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:26:59.451 [46759b] router     -> student          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:26:59.459 [46759b] student    -> router           PROPOSE        bid 0.31 [evidence 1.5, subject keywords [tp]]
+01:26:59.451 [46759b] router     -> supermasproject  CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:26:59.463 [46759b] supermasproject -> router           REFUSE         no evidence of competence
+01:26:59.451 [46759b] router     -> teacher          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:26:59.466 [46759b] teacher    -> router           PROPOSE        bid 0.71 [evidence 5.0, sender role 'lecturer', subject keywords [groupes de tp, tp]]
+01:27:11.732 [0e27df] router     -> memory           REQUEST        history? thread=t07@test (raw)
+01:27:11.735 [0e27df] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:27:11.738 [0e27df] router     -> administration   CFP            competence? 'Correction des copies de SMA'
+01:27:11.741 [0e27df] administration -> router           REFUSE         no evidence of competence
+01:27:11.738 [0e27df] router     -> generic          CFP            competence? 'Correction des copies de SMA'
+01:27:11.745 [0e27df] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:27:11.738 [0e27df] router     -> student          CFP            competence? 'Correction des copies de SMA'
+01:27:11.750 [0e27df] student    -> router           PROPOSE        bid 0.53 [evidence 3.0, body keywords [exam, examen]]
+01:27:11.738 [0e27df] router     -> supermasproject  CFP            competence? 'Correction des copies de SMA'
+01:27:11.756 [0e27df] supermasproject -> router           PROPOSE        bid 0.22 [evidence 1.0, sender tagged 'supermasproject']
+01:27:11.738 [0e27df] router     -> teacher          CFP            competence? 'Correction des copies de SMA'
+01:27:11.761 [0e27df] teacher    -> router           PROPOSE        bid 0.86 [evidence 8.0, sender role 'lecturer', subject keywords [correction, copies], body keywords [exam, examen]]
+01:27:26.400 [528338] router     -> memory           REQUEST        history? thread=t08@test (raw)
+01:27:26.402 [528338] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:27:26.403 [528338] router     -> administration   CFP            competence? 'Jury du M2 IA'
+01:27:26.404 [528338] administration -> router           REFUSE         no evidence of competence
+01:27:26.403 [528338] router     -> generic          CFP            competence? 'Jury du M2 IA'
+01:27:26.406 [528338] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:27:26.403 [528338] router     -> student          CFP            competence? 'Jury du M2 IA'
+01:27:26.409 [528338] student    -> router           REFUSE         no evidence of competence
+01:27:26.403 [528338] router     -> supermasproject  CFP            competence? 'Jury du M2 IA'
+01:27:26.411 [528338] supermasproject -> router           PROPOSE        bid 0.22 [evidence 1.0, sender tagged 'supermasproject']
+01:27:26.403 [528338] router     -> teacher          CFP            competence? 'Jury du M2 IA'
+01:27:26.414 [528338] teacher    -> router           PROPOSE        bid 0.61 [evidence 3.8, sender role 'lecturer', subject keywords [jury]]
+01:27:38.845 [bb07cd] router     -> memory           REQUEST        history? thread=t09@test (raw)
+01:27:38.846 [bb07cd] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:27:38.848 [bb07cd] router     -> administration   CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:27:38.851 [bb07cd] administration -> router           PROPOSE        bid 0.68 [evidence 4.5, sender role 'administration', subject keywords [declaration de service]]
+01:27:38.848 [bb07cd] router     -> generic          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:27:38.853 [bb07cd] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:27:38.848 [bb07cd] router     -> student          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:27:38.857 [bb07cd] student    -> router           REFUSE         no evidence of competence
+01:27:38.848 [bb07cd] router     -> supermasproject  CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:27:38.861 [bb07cd] supermasproject -> router           REFUSE         no evidence of competence
+01:27:38.848 [bb07cd] router     -> teacher          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:27:38.865 [bb07cd] teacher    -> router           REFUSE         no evidence of competence
+01:27:49.111 [de0fb9] router     -> memory           REQUEST        history? thread=t10@test (raw)
+01:27:49.112 [de0fb9] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:27:49.114 [de0fb9] router     -> administration   CFP            competence? 'Reimbursement of your trip to Berlin'
+01:27:49.116 [de0fb9] administration -> router           PROPOSE        bid 0.61 [evidence 3.8, sender role 'administration', subject keywords [reimbursement]]
+01:27:49.114 [de0fb9] router     -> generic          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:27:49.118 [de0fb9] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:27:49.114 [de0fb9] router     -> student          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:27:49.121 [de0fb9] student    -> router           REFUSE         no evidence of competence
+01:27:49.114 [de0fb9] router     -> supermasproject  CFP            competence? 'Reimbursement of your trip to Berlin'
+01:27:49.124 [de0fb9] supermasproject -> router           REFUSE         no evidence of competence
+01:27:49.114 [de0fb9] router     -> teacher          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:27:49.126 [de0fb9] teacher    -> router           REFUSE         no evidence of competence
+01:27:58.806 [037774] router     -> memory           REQUEST        history? thread=t11@test (raw)
+01:27:58.808 [037774] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:27:58.810 [037774] router     -> administration   CFP            competence? 'Votre demande de réservation de salle'
+01:27:58.813 [037774] administration -> router           PROPOSE        bid 0.68 [evidence 4.5, sender role 'administration', subject keywords [salle, reservation]]
+01:27:58.810 [037774] router     -> generic          CFP            competence? 'Votre demande de réservation de salle'
+01:27:58.816 [037774] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:27:58.810 [037774] router     -> student          CFP            competence? 'Votre demande de réservation de salle'
+01:27:58.820 [037774] student    -> router           REFUSE         no evidence of competence
+01:27:58.810 [037774] router     -> supermasproject  CFP            competence? 'Votre demande de réservation de salle'
+01:27:58.824 [037774] supermasproject -> router           REFUSE         no evidence of competence
+01:27:58.810 [037774] router     -> teacher          CFP            competence? 'Votre demande de réservation de salle'
+01:27:58.827 [037774] teacher    -> router           REFUSE         no evidence of competence
+01:28:11.529 [162c7a] router     -> memory           REQUEST        history? thread=t12@test (raw)
+01:28:11.531 [162c7a] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:28:11.533 [162c7a] router     -> administration   CFP            competence? 'D3.1 timeline'
+01:28:11.535 [162c7a] administration -> router           REFUSE         no evidence of competence
+01:28:11.533 [162c7a] router     -> generic          CFP            competence? 'D3.1 timeline'
+01:28:11.538 [162c7a] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:28:11.533 [162c7a] router     -> student          CFP            competence? 'D3.1 timeline'
+01:28:11.541 [162c7a] student    -> router           REFUSE         no evidence of competence
+01:28:11.533 [162c7a] router     -> supermasproject  CFP            competence? 'D3.1 timeline'
+01:28:11.545 [162c7a] supermasproject -> router           PROPOSE        bid 0.75 [evidence 5.5, sender role 'partner', sender tagged 'supermasproject', subject keywords [d3.1]]
+01:28:11.533 [162c7a] router     -> teacher          CFP            competence? 'D3.1 timeline'
+01:28:11.548 [162c7a] teacher    -> router           REFUSE         no evidence of competence
+01:28:23.402 [e9dc11] router     -> memory           REQUEST        history? thread=t13@test (raw)
+01:28:23.404 [e9dc11] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:28:23.406 [e9dc11] router     -> administration   CFP            competence? 'Intégration dans le démonstrateur'
+01:28:23.410 [e9dc11] administration -> router           PROPOSE        bid 0.22 [evidence 1.0, body keywords [form]]
+01:28:23.406 [e9dc11] router     -> generic          CFP            competence? 'Intégration dans le démonstrateur'
+01:28:23.412 [e9dc11] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:28:23.406 [e9dc11] router     -> student          CFP            competence? 'Intégration dans le démonstrateur'
+01:28:23.415 [e9dc11] student    -> router           REFUSE         no evidence of competence
+01:28:23.406 [e9dc11] router     -> supermasproject  CFP            competence? 'Intégration dans le démonstrateur'
+01:28:23.419 [e9dc11] supermasproject -> router           PROPOSE        bid 0.70 [evidence 4.8, sender role 'partner', sender tagged 'supermasproject', subject keywords [demonstrateur]]
+01:28:23.406 [e9dc11] router     -> teacher          CFP            competence? 'Intégration dans le démonstrateur'
+01:28:23.422 [e9dc11] teacher    -> router           REFUSE         no evidence of competence
+01:28:35.915 [986353] router     -> memory           REQUEST        history? thread=t14@test (raw)
+01:28:35.916 [986353] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:28:35.917 [986353] router     -> administration   CFP            competence? 'Résultats T3.2 pour le WP3'
+01:28:35.919 [986353] administration -> router           REFUSE         no evidence of competence
+01:28:35.917 [986353] router     -> generic          CFP            competence? 'Résultats T3.2 pour le WP3'
+01:28:35.922 [986353] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:28:35.917 [986353] router     -> student          CFP            competence? 'Résultats T3.2 pour le WP3'
+01:28:35.924 [986353] student    -> router           REFUSE         no evidence of competence
+01:28:35.917 [986353] router     -> supermasproject  CFP            competence? 'Résultats T3.2 pour le WP3'
+01:28:35.927 [986353] supermasproject -> router           PROPOSE        bid 0.63 [evidence 4.0, sender tagged 'supermasproject', subject keywords [wp3]]
+01:28:35.917 [986353] router     -> teacher          CFP            competence? 'Résultats T3.2 pour le WP3'
+01:28:35.930 [986353] teacher    -> router           PROPOSE        bid 0.31 [evidence 1.5, sender role 'lecturer']
+01:28:49.464 [7972ed] router     -> memory           REQUEST        history? thread=t15@test (raw)
+01:28:49.465 [7972ed] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:28:49.466 [7972ed] router     -> administration   CFP            competence? 'Salle pour jeudi'
+01:28:49.468 [7972ed] administration -> router           PROPOSE        bid 0.26 [evidence 1.2, subject keywords [salle]]
+01:28:49.466 [7972ed] router     -> generic          CFP            competence? 'Salle pour jeudi'
+01:28:49.471 [7972ed] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:28:49.466 [7972ed] router     -> student          CFP            competence? 'Salle pour jeudi'
+01:28:49.474 [7972ed] student    -> router           PROPOSE        bid 0.22 [evidence 1.0, body keywords [soutenance]]
+01:28:49.466 [7972ed] router     -> supermasproject  CFP            competence? 'Salle pour jeudi'
+01:28:49.476 [7972ed] supermasproject -> router           PROPOSE        bid 0.46 [evidence 2.5, sender tagged 'supermasproject', body keywords [pleniere]]
+01:28:49.466 [7972ed] router     -> teacher          CFP            competence? 'Salle pour jeudi'
+01:28:49.479 [7972ed] teacher    -> router           PROPOSE        bid 0.46 [evidence 2.5, sender role 'lecturer', body keywords [soutenance]]
+01:29:00.547 [d46623] router     -> memory           REQUEST        history? thread=t16@test (raw)
+01:29:00.548 [d46623] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:29:00.549 [d46623] router     -> administration   CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:29:00.551 [d46623] administration -> router           REFUSE         no evidence of competence
+01:29:00.549 [d46623] router     -> generic          CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:29:00.553 [d46623] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:29:00.549 [d46623] router     -> student          CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:29:00.557 [d46623] student    -> router           PROPOSE        bid 0.84 [evidence 7.3, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [stage], body keywords [cours]]
+01:29:00.549 [d46623] router     -> supermasproject  CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:29:00.559 [d46623] supermasproject -> router           PROPOSE        bid 0.93 [evidence 10.5, subject keywords [supermas, supermasproject]]
+01:29:00.549 [d46623] router     -> teacher          CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:29:00.562 [d46623] teacher    -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [cours]]
+01:29:11.343 [a84c91] router     -> memory           REQUEST        history? thread=t17@test (raw)
+01:29:11.345 [a84c91] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:29:11.347 [a84c91] router     -> administration   CFP            competence? 'Invitation to review a manuscript'
+01:29:11.349 [a84c91] administration -> router           REFUSE         no evidence of competence
+01:29:11.347 [a84c91] router     -> generic          CFP            competence? 'Invitation to review a manuscript'
+01:29:11.351 [a84c91] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:29:11.347 [a84c91] router     -> student          CFP            competence? 'Invitation to review a manuscript'
+01:29:11.353 [a84c91] student    -> router           REFUSE         no evidence of competence
+01:29:11.347 [a84c91] router     -> supermasproject  CFP            competence? 'Invitation to review a manuscript'
+01:29:11.356 [a84c91] supermasproject -> router           REFUSE         no evidence of competence
+01:29:11.347 [a84c91] router     -> teacher          CFP            competence? 'Invitation to review a manuscript'
+01:29:11.358 [a84c91] teacher    -> router           REFUSE         no evidence of competence
+01:29:21.413 [31763a] router     -> memory           REQUEST        history? thread=t18@test (raw)
+01:29:21.414 [31763a] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:29:21.416 [31763a] router     -> administration   CFP            competence? 'Talk at our AI meetup?'
+01:29:21.419 [31763a] administration -> router           REFUSE         no evidence of competence
+01:29:21.416 [31763a] router     -> generic          CFP            competence? 'Talk at our AI meetup?'
+01:29:21.420 [31763a] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:29:21.416 [31763a] router     -> student          CFP            competence? 'Talk at our AI meetup?'
+01:29:21.423 [31763a] student    -> router           REFUSE         no evidence of competence
+01:29:21.416 [31763a] router     -> supermasproject  CFP            competence? 'Talk at our AI meetup?'
+01:29:21.424 [31763a] supermasproject -> router           REFUSE         no evidence of competence
+01:29:21.416 [31763a] router     -> teacher          CFP            competence? 'Talk at our AI meetup?'
+01:29:21.427 [31763a] teacher    -> router           REFUSE         no evidence of competence
+01:29:31.905 [c39a0f] router     -> memory           REQUEST        history? thread=t19@test (raw)
+01:29:31.906 [c39a0f] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:29:31.908 [c39a0f] router     -> administration   CFP            competence? 'Saisie des notes du module SMA'
+01:29:31.910 [c39a0f] administration -> router           PROPOSE        bid 0.31 [evidence 1.5, sender role 'administration']
+01:29:31.908 [c39a0f] router     -> generic          CFP            competence? 'Saisie des notes du module SMA'
+01:29:31.913 [c39a0f] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:29:31.908 [c39a0f] router     -> student          CFP            competence? 'Saisie des notes du module SMA'
+01:29:31.916 [c39a0f] student    -> router           REFUSE         no evidence of competence
+01:29:31.908 [c39a0f] router     -> supermasproject  CFP            competence? 'Saisie des notes du module SMA'
+01:29:31.919 [c39a0f] supermasproject -> router           REFUSE         no evidence of competence
+01:29:31.908 [c39a0f] router     -> teacher          CFP            competence? 'Saisie des notes du module SMA'
+01:29:31.923 [c39a0f] teacher    -> router           REFUSE         no evidence of competence
+01:29:46.687 [929517] router     -> memory           REQUEST        history? thread=t20@test (raw)
+01:29:46.689 [929517] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:29:46.691 [929517] router     -> administration   CFP            competence? 'Tournoi de badminton'
+01:29:46.693 [929517] administration -> router           REFUSE         no evidence of competence
+01:29:46.691 [929517] router     -> generic          CFP            competence? 'Tournoi de badminton'
+01:29:46.694 [929517] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:29:46.691 [929517] router     -> student          CFP            competence? 'Tournoi de badminton'
+01:29:46.697 [929517] student    -> router           REFUSE         no evidence of competence
+01:29:46.691 [929517] router     -> supermasproject  CFP            competence? 'Tournoi de badminton'
+01:29:46.700 [929517] supermasproject -> router           REFUSE         no evidence of competence
+01:29:46.691 [929517] router     -> teacher          CFP            competence? 'Tournoi de badminton'
+01:29:46.703 [929517] teacher    -> router           REFUSE         no evidence of competence
+01:29:56.123 [086fa7] router     -> memory           REQUEST        history? thread=t01@test (raw)
+01:29:56.124 [086fa7] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:29:56.125 [086fa7] router     -> administration   CFP            competence? 'Meeting about my MAS project'
+01:29:56.127 [086fa7] administration -> router           REFUSE         no evidence of competence
+01:29:56.125 [086fa7] router     -> generic          CFP            competence? 'Meeting about my MAS project'
+01:29:56.129 [086fa7] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:29:56.125 [086fa7] router     -> student          CFP            competence? 'Meeting about my MAS project'
+01:29:56.131 [086fa7] student    -> router           PROPOSE        bid 0.80 [evidence 6.5, sender matches *@etu.univ-example.fr, sender role 'student', body keywords [cours, course]]
+01:29:56.125 [086fa7] router     -> supermasproject  CFP            competence? 'Meeting about my MAS project'
+01:29:56.134 [086fa7] supermasproject -> router           REFUSE         no evidence of competence
+01:29:56.125 [086fa7] router     -> teacher          CFP            competence? 'Meeting about my MAS project'
+01:29:56.137 [086fa7] teacher    -> router           PROPOSE        bid 0.33 [evidence 1.6, body keywords [cours, course]]
+01:30:05.332 [d52f6c] router     -> memory           REQUEST        history? thread=t02@test (raw)
+01:30:05.333 [d52f6c] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:30:05.335 [d52f6c] router     -> administration   CFP            competence? 'Examen de SMA'
+01:30:05.337 [d52f6c] administration -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [salle]]
+01:30:05.335 [d52f6c] router     -> generic          CFP            competence? 'Examen de SMA'
+01:30:05.340 [d52f6c] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:30:05.335 [d52f6c] router     -> student          CFP            competence? 'Examen de SMA'
+01:30:05.343 [d52f6c] student    -> router           PROPOSE        bid 0.86 [evidence 8.0, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [exam, examen]]
+01:30:05.335 [d52f6c] router     -> supermasproject  CFP            competence? 'Examen de SMA'
+01:30:05.345 [d52f6c] supermasproject -> router           REFUSE         no evidence of competence
+01:30:05.335 [d52f6c] router     -> teacher          CFP            competence? 'Examen de SMA'
+01:30:05.348 [d52f6c] teacher    -> router           PROPOSE        bid 0.59 [evidence 3.6, subject keywords [exam, examen]]
+01:30:20.229 [6124f0] router     -> memory           REQUEST        history? thread=t03@test (raw)
+01:30:20.230 [6124f0] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:30:20.231 [6124f0] router     -> administration   CFP            competence? 'Project deadline extension'
+01:30:20.233 [6124f0] administration -> router           REFUSE         no evidence of competence
+01:30:20.231 [6124f0] router     -> generic          CFP            competence? 'Project deadline extension'
+01:30:20.235 [6124f0] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:30:20.231 [6124f0] router     -> student          CFP            competence? 'Project deadline extension'
+01:30:20.238 [6124f0] student    -> router           PROPOSE        bid 0.91 [evidence 9.5, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [project deadline, extension, deadline]]
+01:30:20.231 [6124f0] router     -> supermasproject  CFP            competence? 'Project deadline extension'
+01:30:20.241 [6124f0] supermasproject -> router           REFUSE         no evidence of competence
+01:30:20.231 [6124f0] router     -> teacher          CFP            competence? 'Project deadline extension'
+01:30:20.244 [6124f0] teacher    -> router           REFUSE         no evidence of competence
+01:30:28.801 [b6aff9] router     -> memory           REQUEST        history? thread=t04@test (raw)
+01:30:28.803 [b6aff9] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:30:28.804 [b6aff9] router     -> administration   CFP            competence? 'Recherche de stage'
+01:30:28.806 [b6aff9] administration -> router           REFUSE         no evidence of competence
+01:30:28.804 [b6aff9] router     -> generic          CFP            competence? 'Recherche de stage'
+01:30:28.808 [b6aff9] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:30:28.804 [b6aff9] router     -> student          CFP            competence? 'Recherche de stage'
+01:30:28.811 [b6aff9] student    -> router           PROPOSE        bid 0.76 [evidence 5.8, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [stage]]
+01:30:28.804 [b6aff9] router     -> supermasproject  CFP            competence? 'Recherche de stage'
+01:30:28.814 [b6aff9] supermasproject -> router           REFUSE         no evidence of competence
+01:30:28.804 [b6aff9] router     -> teacher          CFP            competence? 'Recherche de stage'
+01:30:28.817 [b6aff9] teacher    -> router           REFUSE         no evidence of competence
+01:30:39.574 [37ea93] router     -> memory           REQUEST        history? thread=t05@test (raw)
+01:30:39.575 [37ea93] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:30:39.577 [37ea93] router     -> administration   CFP            competence? 'Question about the BDI lecture'
+01:30:39.579 [37ea93] administration -> router           REFUSE         no evidence of competence
+01:30:39.577 [37ea93] router     -> generic          CFP            competence? 'Question about the BDI lecture'
+01:30:39.582 [37ea93] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:30:39.577 [37ea93] router     -> student          CFP            competence? 'Question about the BDI lecture'
+01:30:39.584 [37ea93] student    -> router           PROPOSE        bid 0.82 [evidence 6.8, subject keywords [bdi, lecture], body keywords [cours, course]]
+01:30:39.577 [37ea93] router     -> supermasproject  CFP            competence? 'Question about the BDI lecture'
+01:30:39.588 [37ea93] supermasproject -> router           REFUSE         no evidence of competence
+01:30:39.577 [37ea93] router     -> teacher          CFP            competence? 'Question about the BDI lecture'
+01:30:39.591 [37ea93] teacher    -> router           PROPOSE        bid 0.63 [evidence 4.0, subject keywords [lecture], body keywords [cours, slides, course]]
+01:30:48.876 [af7fae] router     -> memory           REQUEST        history? thread=t06@test (raw)
+01:30:48.878 [af7fae] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:30:48.879 [af7fae] router     -> administration   CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:30:48.881 [af7fae] administration -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [salle]]
+01:30:48.879 [af7fae] router     -> generic          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:30:48.882 [af7fae] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:30:48.879 [af7fae] router     -> student          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:30:48.885 [af7fae] student    -> router           PROPOSE        bid 0.31 [evidence 1.5, subject keywords [tp]]
+01:30:48.879 [af7fae] router     -> supermasproject  CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:30:48.888 [af7fae] supermasproject -> router           REFUSE         no evidence of competence
+01:30:48.879 [af7fae] router     -> teacher          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:30:48.890 [af7fae] teacher    -> router           PROPOSE        bid 0.71 [evidence 5.0, sender role 'lecturer', subject keywords [groupes de tp, tp]]
+01:30:59.955 [b54f12] router     -> memory           REQUEST        history? thread=t07@test (raw)
+01:30:59.956 [b54f12] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:30:59.957 [b54f12] router     -> administration   CFP            competence? 'Correction des copies de SMA'
+01:30:59.959 [b54f12] administration -> router           REFUSE         no evidence of competence
+01:30:59.957 [b54f12] router     -> generic          CFP            competence? 'Correction des copies de SMA'
+01:30:59.961 [b54f12] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:30:59.957 [b54f12] router     -> student          CFP            competence? 'Correction des copies de SMA'
+01:30:59.963 [b54f12] student    -> router           PROPOSE        bid 0.53 [evidence 3.0, body keywords [exam, examen]]
+01:30:59.957 [b54f12] router     -> supermasproject  CFP            competence? 'Correction des copies de SMA'
+01:30:59.965 [b54f12] supermasproject -> router           PROPOSE        bid 0.22 [evidence 1.0, sender tagged 'supermasproject']
+01:30:59.957 [b54f12] router     -> teacher          CFP            competence? 'Correction des copies de SMA'
+01:30:59.967 [b54f12] teacher    -> router           PROPOSE        bid 0.86 [evidence 8.0, sender role 'lecturer', subject keywords [correction, copies], body keywords [exam, examen]]
+01:31:14.244 [03abc0] router     -> memory           REQUEST        history? thread=t08@test (raw)
+01:31:14.245 [03abc0] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:31:14.247 [03abc0] router     -> administration   CFP            competence? 'Jury du M2 IA'
+01:31:14.249 [03abc0] administration -> router           REFUSE         no evidence of competence
+01:31:14.247 [03abc0] router     -> generic          CFP            competence? 'Jury du M2 IA'
+01:31:14.252 [03abc0] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:31:14.247 [03abc0] router     -> student          CFP            competence? 'Jury du M2 IA'
+01:31:14.255 [03abc0] student    -> router           REFUSE         no evidence of competence
+01:31:14.247 [03abc0] router     -> supermasproject  CFP            competence? 'Jury du M2 IA'
+01:31:14.259 [03abc0] supermasproject -> router           PROPOSE        bid 0.22 [evidence 1.0, sender tagged 'supermasproject']
+01:31:14.247 [03abc0] router     -> teacher          CFP            competence? 'Jury du M2 IA'
+01:31:14.261 [03abc0] teacher    -> router           PROPOSE        bid 0.61 [evidence 3.8, sender role 'lecturer', subject keywords [jury]]
+01:31:26.643 [496a3b] router     -> memory           REQUEST        history? thread=t09@test (raw)
+01:31:26.644 [496a3b] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:31:26.646 [496a3b] router     -> administration   CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:31:26.648 [496a3b] administration -> router           PROPOSE        bid 0.68 [evidence 4.5, sender role 'administration', subject keywords [declaration de service]]
+01:31:26.646 [496a3b] router     -> generic          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:31:26.650 [496a3b] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:31:26.646 [496a3b] router     -> student          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:31:26.653 [496a3b] student    -> router           REFUSE         no evidence of competence
+01:31:26.646 [496a3b] router     -> supermasproject  CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:31:26.656 [496a3b] supermasproject -> router           REFUSE         no evidence of competence
+01:31:26.646 [496a3b] router     -> teacher          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:31:26.659 [496a3b] teacher    -> router           REFUSE         no evidence of competence
+01:31:36.955 [902f97] router     -> memory           REQUEST        history? thread=t10@test (raw)
+01:31:36.956 [902f97] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:31:36.957 [902f97] router     -> administration   CFP            competence? 'Reimbursement of your trip to Berlin'
+01:31:36.959 [902f97] administration -> router           PROPOSE        bid 0.61 [evidence 3.8, sender role 'administration', subject keywords [reimbursement]]
+01:31:36.957 [902f97] router     -> generic          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:31:36.961 [902f97] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:31:36.957 [902f97] router     -> student          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:31:36.963 [902f97] student    -> router           REFUSE         no evidence of competence
+01:31:36.957 [902f97] router     -> supermasproject  CFP            competence? 'Reimbursement of your trip to Berlin'
+01:31:36.965 [902f97] supermasproject -> router           REFUSE         no evidence of competence
+01:31:36.957 [902f97] router     -> teacher          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:31:36.968 [902f97] teacher    -> router           REFUSE         no evidence of competence
+01:31:46.246 [02dcf4] router     -> memory           REQUEST        history? thread=t11@test (raw)
+01:31:46.247 [02dcf4] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:31:46.248 [02dcf4] router     -> administration   CFP            competence? 'Votre demande de réservation de salle'
+01:31:46.250 [02dcf4] administration -> router           PROPOSE        bid 0.68 [evidence 4.5, sender role 'administration', subject keywords [salle, reservation]]
+01:31:46.248 [02dcf4] router     -> generic          CFP            competence? 'Votre demande de réservation de salle'
+01:31:46.252 [02dcf4] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:31:46.248 [02dcf4] router     -> student          CFP            competence? 'Votre demande de réservation de salle'
+01:31:46.254 [02dcf4] student    -> router           REFUSE         no evidence of competence
+01:31:46.248 [02dcf4] router     -> supermasproject  CFP            competence? 'Votre demande de réservation de salle'
+01:31:46.256 [02dcf4] supermasproject -> router           REFUSE         no evidence of competence
+01:31:46.248 [02dcf4] router     -> teacher          CFP            competence? 'Votre demande de réservation de salle'
+01:31:46.258 [02dcf4] teacher    -> router           REFUSE         no evidence of competence
+01:31:58.673 [0ec5c3] router     -> memory           REQUEST        history? thread=t12@test (raw)
+01:31:58.675 [0ec5c3] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:31:58.676 [0ec5c3] router     -> administration   CFP            competence? 'D3.1 timeline'
+01:31:58.679 [0ec5c3] administration -> router           REFUSE         no evidence of competence
+01:31:58.676 [0ec5c3] router     -> generic          CFP            competence? 'D3.1 timeline'
+01:31:58.681 [0ec5c3] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:31:58.676 [0ec5c3] router     -> student          CFP            competence? 'D3.1 timeline'
+01:31:58.684 [0ec5c3] student    -> router           REFUSE         no evidence of competence
+01:31:58.676 [0ec5c3] router     -> supermasproject  CFP            competence? 'D3.1 timeline'
+01:31:58.687 [0ec5c3] supermasproject -> router           PROPOSE        bid 0.75 [evidence 5.5, sender role 'partner', sender tagged 'supermasproject', subject keywords [d3.1]]
+01:31:58.676 [0ec5c3] router     -> teacher          CFP            competence? 'D3.1 timeline'
+01:31:58.690 [0ec5c3] teacher    -> router           REFUSE         no evidence of competence
+01:32:10.410 [98fb0c] router     -> memory           REQUEST        history? thread=t13@test (raw)
+01:32:10.412 [98fb0c] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:32:10.413 [98fb0c] router     -> administration   CFP            competence? 'Intégration dans le démonstrateur'
+01:32:10.415 [98fb0c] administration -> router           PROPOSE        bid 0.22 [evidence 1.0, body keywords [form]]
+01:32:10.413 [98fb0c] router     -> generic          CFP            competence? 'Intégration dans le démonstrateur'
+01:32:10.418 [98fb0c] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:32:10.413 [98fb0c] router     -> student          CFP            competence? 'Intégration dans le démonstrateur'
+01:32:10.421 [98fb0c] student    -> router           REFUSE         no evidence of competence
+01:32:10.413 [98fb0c] router     -> supermasproject  CFP            competence? 'Intégration dans le démonstrateur'
+01:32:10.423 [98fb0c] supermasproject -> router           PROPOSE        bid 0.70 [evidence 4.8, sender role 'partner', sender tagged 'supermasproject', subject keywords [demonstrateur]]
+01:32:10.413 [98fb0c] router     -> teacher          CFP            competence? 'Intégration dans le démonstrateur'
+01:32:10.426 [98fb0c] teacher    -> router           REFUSE         no evidence of competence
+01:32:22.391 [356193] router     -> memory           REQUEST        history? thread=t14@test (raw)
+01:32:22.392 [356193] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:32:22.393 [356193] router     -> administration   CFP            competence? 'Résultats T3.2 pour le WP3'
+01:32:22.395 [356193] administration -> router           REFUSE         no evidence of competence
+01:32:22.393 [356193] router     -> generic          CFP            competence? 'Résultats T3.2 pour le WP3'
+01:32:22.397 [356193] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:32:22.393 [356193] router     -> student          CFP            competence? 'Résultats T3.2 pour le WP3'
+01:32:22.399 [356193] student    -> router           REFUSE         no evidence of competence
+01:32:22.393 [356193] router     -> supermasproject  CFP            competence? 'Résultats T3.2 pour le WP3'
+01:32:22.401 [356193] supermasproject -> router           PROPOSE        bid 0.63 [evidence 4.0, sender tagged 'supermasproject', subject keywords [wp3]]
+01:32:22.393 [356193] router     -> teacher          CFP            competence? 'Résultats T3.2 pour le WP3'
+01:32:22.404 [356193] teacher    -> router           PROPOSE        bid 0.31 [evidence 1.5, sender role 'lecturer']
+01:32:37.645 [fa86c6] router     -> memory           REQUEST        history? thread=t15@test (raw)
+01:32:37.647 [fa86c6] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:32:37.648 [fa86c6] router     -> administration   CFP            competence? 'Salle pour jeudi'
+01:32:37.650 [fa86c6] administration -> router           PROPOSE        bid 0.26 [evidence 1.2, subject keywords [salle]]
+01:32:37.648 [fa86c6] router     -> generic          CFP            competence? 'Salle pour jeudi'
+01:32:37.653 [fa86c6] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:32:37.648 [fa86c6] router     -> student          CFP            competence? 'Salle pour jeudi'
+01:32:37.657 [fa86c6] student    -> router           PROPOSE        bid 0.22 [evidence 1.0, body keywords [soutenance]]
+01:32:37.648 [fa86c6] router     -> supermasproject  CFP            competence? 'Salle pour jeudi'
+01:32:37.660 [fa86c6] supermasproject -> router           PROPOSE        bid 0.46 [evidence 2.5, sender tagged 'supermasproject', body keywords [pleniere]]
+01:32:37.648 [fa86c6] router     -> teacher          CFP            competence? 'Salle pour jeudi'
+01:32:37.664 [fa86c6] teacher    -> router           PROPOSE        bid 0.46 [evidence 2.5, sender role 'lecturer', body keywords [soutenance]]
+01:32:50.625 [947fa8] router     -> memory           REQUEST        history? thread=t16@test (raw)
+01:32:50.626 [947fa8] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:32:50.628 [947fa8] router     -> administration   CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:32:50.630 [947fa8] administration -> router           REFUSE         no evidence of competence
+01:32:50.628 [947fa8] router     -> generic          CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:32:50.634 [947fa8] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:32:50.628 [947fa8] router     -> student          CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:32:50.638 [947fa8] student    -> router           PROPOSE        bid 0.84 [evidence 7.3, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [stage], body keywords [cours]]
+01:32:50.628 [947fa8] router     -> supermasproject  CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:32:50.640 [947fa8] supermasproject -> router           PROPOSE        bid 0.93 [evidence 10.5, subject keywords [supermas, supermasproject]]
+01:32:50.628 [947fa8] router     -> teacher          CFP            competence? 'Stage dans le projet SuperMASProject ?'
+01:32:50.642 [947fa8] teacher    -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [cours]]
+01:33:03.139 [de47c9] router     -> memory           REQUEST        history? thread=t17@test (raw)
+01:33:03.140 [de47c9] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:33:03.142 [de47c9] router     -> administration   CFP            competence? 'Invitation to review a manuscript'
+01:33:03.143 [de47c9] administration -> router           REFUSE         no evidence of competence
+01:33:03.142 [de47c9] router     -> generic          CFP            competence? 'Invitation to review a manuscript'
+01:33:03.146 [de47c9] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:33:03.142 [de47c9] router     -> student          CFP            competence? 'Invitation to review a manuscript'
+01:33:03.148 [de47c9] student    -> router           REFUSE         no evidence of competence
+01:33:03.142 [de47c9] router     -> supermasproject  CFP            competence? 'Invitation to review a manuscript'
+01:33:03.150 [de47c9] supermasproject -> router           REFUSE         no evidence of competence
+01:33:03.142 [de47c9] router     -> teacher          CFP            competence? 'Invitation to review a manuscript'
+01:33:03.153 [de47c9] teacher    -> router           REFUSE         no evidence of competence
+01:33:14.704 [d77199] router     -> memory           REQUEST        history? thread=t18@test (raw)
+01:33:14.706 [d77199] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:33:14.707 [d77199] router     -> administration   CFP            competence? 'Talk at our AI meetup?'
+01:33:14.709 [d77199] administration -> router           REFUSE         no evidence of competence
+01:33:14.707 [d77199] router     -> generic          CFP            competence? 'Talk at our AI meetup?'
+01:33:14.711 [d77199] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:33:14.707 [d77199] router     -> student          CFP            competence? 'Talk at our AI meetup?'
+01:33:14.714 [d77199] student    -> router           REFUSE         no evidence of competence
+01:33:14.707 [d77199] router     -> supermasproject  CFP            competence? 'Talk at our AI meetup?'
+01:33:14.716 [d77199] supermasproject -> router           REFUSE         no evidence of competence
+01:33:14.707 [d77199] router     -> teacher          CFP            competence? 'Talk at our AI meetup?'
+01:33:14.720 [d77199] teacher    -> router           REFUSE         no evidence of competence
+01:33:26.609 [442319] router     -> memory           REQUEST        history? thread=t19@test (raw)
+01:33:26.610 [442319] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:33:26.612 [442319] router     -> administration   CFP            competence? 'Saisie des notes du module SMA'
+01:33:26.614 [442319] administration -> router           PROPOSE        bid 0.31 [evidence 1.5, sender role 'administration']
+01:33:26.612 [442319] router     -> generic          CFP            competence? 'Saisie des notes du module SMA'
+01:33:26.616 [442319] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:33:26.612 [442319] router     -> student          CFP            competence? 'Saisie des notes du module SMA'
+01:33:26.619 [442319] student    -> router           REFUSE         no evidence of competence
+01:33:26.612 [442319] router     -> supermasproject  CFP            competence? 'Saisie des notes du module SMA'
+01:33:26.622 [442319] supermasproject -> router           REFUSE         no evidence of competence
+01:33:26.612 [442319] router     -> teacher          CFP            competence? 'Saisie des notes du module SMA'
+01:33:26.624 [442319] teacher    -> router           REFUSE         no evidence of competence
+01:33:41.725 [6014e6] router     -> memory           REQUEST        history? thread=t20@test (raw)
+01:33:41.726 [6014e6] memory     -> router           INFORM         0 thread entries, 0 with sender
+01:33:41.727 [6014e6] router     -> administration   CFP            competence? 'Tournoi de badminton'
+01:33:41.729 [6014e6] administration -> router           REFUSE         no evidence of competence
+01:33:41.727 [6014e6] router     -> generic          CFP            competence? 'Tournoi de badminton'
+01:33:41.731 [6014e6] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:33:41.727 [6014e6] router     -> student          CFP            competence? 'Tournoi de badminton'
+01:33:41.733 [6014e6] student    -> router           REFUSE         no evidence of competence
+01:33:41.727 [6014e6] router     -> supermasproject  CFP            competence? 'Tournoi de badminton'
+01:33:41.735 [6014e6] supermasproject -> router           REFUSE         no evidence of competence
+01:33:41.727 [6014e6] router     -> teacher          CFP            competence? 'Tournoi de badminton'
+01:33:41.737 [6014e6] teacher    -> router           REFUSE         no evidence of competence
+01:33:53.898 [9b215e] user       -> router           REQUEST        process Email[t01@test from tom.garcia@etu.univ-example.fr 'Meeting about my MAS project']
+01:33:53.909 [9b215e] router     -> memory           INFORM         remember RECEIVED in t01@test
+01:33:53.916 [9b215e] router     -> memory           REQUEST        history? thread=t01@test (raw)
+01:33:53.917 [9b215e] memory     -> router           INFORM         1 thread entries, 0 with sender
+01:33:53.918 [9b215e] router     -> administration   CFP            competence? 'Meeting about my MAS project'
+01:33:53.920 [9b215e] administration -> router           REFUSE         no evidence of competence
+01:33:53.918 [9b215e] router     -> generic          CFP            competence? 'Meeting about my MAS project'
+01:33:53.922 [9b215e] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:33:53.918 [9b215e] router     -> student          CFP            competence? 'Meeting about my MAS project'
+01:33:53.926 [9b215e] student    -> router           PROPOSE        bid 0.80 [evidence 6.5, sender matches *@etu.univ-example.fr, sender role 'student', body keywords [cours, course]]
+01:33:53.918 [9b215e] router     -> supermasproject  CFP            competence? 'Meeting about my MAS project'
+01:33:53.928 [9b215e] supermasproject -> router           REFUSE         no evidence of competence
+01:33:53.918 [9b215e] router     -> teacher          CFP            competence? 'Meeting about my MAS project'
+01:33:53.931 [9b215e] teacher    -> router           PROPOSE        bid 0.33 [evidence 1.6, body keywords [cours, course]]
+01:34:05.624 [9b215e] router     -> student          REQUEST        draft reply for 'Meeting about my MAS project'
+01:34:05.632 [9b215e] student    -> memory           REQUEST        history? thread=t01@test budget=700
+01:34:05.642 [9b215e] memory     -> student          INFORM         0 thread entries, 0 with sender
+01:35:10.868 [9b215e] student    -> router           INFORM         draft by student (303 chars, ~1291 prompt tokens, 65236 ms, context [pinned/course_info.md, mas_course_faq.md])
+01:35:10.874 [9b215e] router     -> reviewer         REQUEST        review draft of student
+01:35:10.878 [9b215e] reviewer   -> router           INFORM         OK []
+01:35:10.880 [9b215e] router     -> memory           INFORM         remember PROPOSED in t01@test
+01:35:10.885 [9b215e] router     -> user             INFORM         result: Meeting about my MAS project -> student (CONFIDENT, 0.90)
+01:35:10.888 [9c9415] user       -> router           REQUEST        process Email[t02@test from ines.moreau@etu.univ-example.fr 'Examen de SMA']
+01:35:10.889 [9c9415] router     -> memory           INFORM         remember RECEIVED in t02@test
+01:35:10.892 [9c9415] router     -> memory           REQUEST        history? thread=t02@test (raw)
+01:35:10.894 [9c9415] memory     -> router           INFORM         1 thread entries, 0 with sender
+01:35:10.895 [9c9415] router     -> administration   CFP            competence? 'Examen de SMA'
+01:35:10.898 [9c9415] administration -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [salle]]
+01:35:10.895 [9c9415] router     -> generic          CFP            competence? 'Examen de SMA'
+01:35:10.901 [9c9415] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:35:10.895 [9c9415] router     -> student          CFP            competence? 'Examen de SMA'
+01:35:10.904 [9c9415] student    -> router           PROPOSE        bid 0.86 [evidence 8.0, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [exam, examen]]
+01:35:10.895 [9c9415] router     -> supermasproject  CFP            competence? 'Examen de SMA'
+01:35:10.908 [9c9415] supermasproject -> router           REFUSE         no evidence of competence
+01:35:10.895 [9c9415] router     -> teacher          CFP            competence? 'Examen de SMA'
+01:35:10.911 [9c9415] teacher    -> router           PROPOSE        bid 0.59 [evidence 3.6, subject keywords [exam, examen]]
+01:35:29.740 [9c9415] router     -> student          REQUEST        draft reply for 'Examen de SMA'
+01:35:29.804 [9c9415] student    -> memory           REQUEST        history? thread=t02@test budget=700
+01:35:29.807 [9c9415] memory     -> student          INFORM         0 thread entries, 0 with sender
+01:36:08.693 [9c9415] student    -> router           INFORM         draft by student (233 chars, ~981 prompt tokens, 38889 ms, context [pinned/course_info.md])
+01:36:08.699 [9c9415] router     -> reviewer         REQUEST        review draft of student
+01:36:08.702 [9c9415] reviewer   -> router           INFORM         OK []
+01:36:08.705 [9c9415] router     -> memory           INFORM         remember PROPOSED in t02@test
+01:36:08.712 [9c9415] router     -> user             INFORM         result: Examen de SMA -> student (CONFIDENT, 0.93)
+01:36:08.718 [e73345] user       -> router           REQUEST        process Email[t03@test from karim.haddad@etu.univ-example.fr 'Project deadline extension']
+01:36:08.722 [e73345] router     -> memory           INFORM         remember RECEIVED in t03@test
+01:36:08.728 [e73345] router     -> memory           REQUEST        history? thread=t03@test (raw)
+01:36:08.731 [e73345] memory     -> router           INFORM         1 thread entries, 0 with sender
+01:36:08.738 [e73345] router     -> administration   CFP            competence? 'Project deadline extension'
+01:36:08.743 [e73345] administration -> router           REFUSE         no evidence of competence
+01:36:08.738 [e73345] router     -> generic          CFP            competence? 'Project deadline extension'
+01:36:08.747 [e73345] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:36:08.738 [e73345] router     -> student          CFP            competence? 'Project deadline extension'
+01:36:08.753 [e73345] student    -> router           PROPOSE        bid 0.91 [evidence 9.5, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [project deadline, extension, deadline]]
+01:36:08.738 [e73345] router     -> supermasproject  CFP            competence? 'Project deadline extension'
+01:36:08.759 [e73345] supermasproject -> router           REFUSE         no evidence of competence
+01:36:08.738 [e73345] router     -> teacher          CFP            competence? 'Project deadline extension'
+01:36:08.764 [e73345] teacher    -> router           REFUSE         no evidence of competence
+01:36:18.144 [e73345] router     -> student          REQUEST        draft reply for 'Project deadline extension'
+01:36:18.146 [e73345] student    -> memory           REQUEST        history? thread=t03@test budget=700
+01:36:18.147 [e73345] memory     -> student          INFORM         0 thread entries, 0 with sender
+01:36:48.578 [e73345] student    -> router           INFORM         draft by student (97 chars, ~1160 prompt tokens, 30432 ms, context [pinned/course_info.md, mas_course_faq.md])
+01:36:48.579 [e73345] router     -> reviewer         REQUEST        review draft of student
+01:36:48.581 [e73345] reviewer   -> router           INFORM         OK []
+01:36:48.582 [e73345] router     -> memory           INFORM         remember PROPOSED in t03@test
+01:36:48.585 [e73345] router     -> user             INFORM         result: Project deadline extension -> student (CONFIDENT, 0.95)
+01:36:48.586 [af2e7d] user       -> router           REQUEST        process Email[t06@test from paul.moreau@univ-example.fr 'Groupes de TP Java la semaine prochaine']
+01:36:48.586 [af2e7d] router     -> memory           INFORM         remember RECEIVED in t06@test
+01:36:48.589 [af2e7d] router     -> memory           REQUEST        history? thread=t06@test (raw)
+01:36:48.591 [af2e7d] memory     -> router           INFORM         1 thread entries, 0 with sender
+01:36:48.591 [af2e7d] router     -> administration   CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:36:48.593 [af2e7d] administration -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [salle]]
+01:36:48.591 [af2e7d] router     -> generic          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:36:48.595 [af2e7d] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:36:48.591 [af2e7d] router     -> student          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:36:48.598 [af2e7d] student    -> router           PROPOSE        bid 0.31 [evidence 1.5, subject keywords [tp]]
+01:36:48.591 [af2e7d] router     -> supermasproject  CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:36:48.601 [af2e7d] supermasproject -> router           REFUSE         no evidence of competence
+01:36:48.591 [af2e7d] router     -> teacher          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:36:48.604 [af2e7d] teacher    -> router           PROPOSE        bid 0.71 [evidence 5.0, sender role 'lecturer', subject keywords [groupes de tp, tp]]
+01:36:59.424 [af2e7d] router     -> teacher          REQUEST        draft reply for 'Groupes de TP Java la semaine prochaine'
+01:36:59.425 [af2e7d] teacher    -> memory           REQUEST        history? thread=t06@test budget=800
+01:36:59.427 [af2e7d] memory     -> teacher          INFORM         0 thread entries, 0 with sender
+01:37:32.903 [af2e7d] teacher    -> router           INFORM         draft by teacher (295 chars, ~831 prompt tokens, 33478 ms, context [pinned/teaching_team.md])
+01:37:32.904 [af2e7d] router     -> reviewer         REQUEST        review draft of teacher
+01:37:32.906 [af2e7d] reviewer   -> router           INFORM         OK []
+01:37:32.907 [af2e7d] router     -> memory           INFORM         remember PROPOSED in t06@test
+01:37:32.910 [af2e7d] router     -> user             INFORM         result: Groupes de TP Java la semaine prochaine -> teacher (CONFIDENT, 0.85)
+01:37:32.911 [b69f0e] user       -> router           REQUEST        process Email[t09@test from rh@univ-example.fr 'Rappel : déclaration de service 2026-2027']
+01:37:32.912 [b69f0e] router     -> memory           INFORM         remember RECEIVED in t09@test
+01:37:32.914 [b69f0e] router     -> memory           REQUEST        history? thread=t09@test (raw)
+01:37:32.915 [b69f0e] memory     -> router           INFORM         1 thread entries, 0 with sender
+01:37:32.916 [b69f0e] router     -> administration   CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:37:32.917 [b69f0e] administration -> router           PROPOSE        bid 0.68 [evidence 4.5, sender role 'administration', subject keywords [declaration de service]]
+01:37:32.916 [b69f0e] router     -> generic          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:37:32.918 [b69f0e] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:37:32.916 [b69f0e] router     -> student          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:37:32.921 [b69f0e] student    -> router           REFUSE         no evidence of competence
+01:37:32.916 [b69f0e] router     -> supermasproject  CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:37:32.923 [b69f0e] supermasproject -> router           REFUSE         no evidence of competence
+01:37:32.916 [b69f0e] router     -> teacher          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:37:32.925 [b69f0e] teacher    -> router           REFUSE         no evidence of competence
+01:37:42.307 [b69f0e] router     -> administration   REQUEST        draft reply for 'Rappel : déclaration de service 2026-2027'
+01:37:42.309 [b69f0e] administration -> memory           REQUEST        history? thread=t09@test budget=600
+01:37:42.310 [b69f0e] memory     -> administration   INFORM         0 thread entries, 0 with sender
+01:38:12.554 [b69f0e] administration -> router           INFORM         draft by administration (244 chars, ~786 prompt tokens, 30245 ms, context [pinned/admin_procedures.md])
+01:38:12.556 [b69f0e] router     -> reviewer         REQUEST        review draft of administration
+01:38:12.557 [b69f0e] reviewer   -> router           INFORM         OK []
+01:38:12.558 [b69f0e] router     -> memory           INFORM         remember PROPOSED in t09@test
+01:38:12.560 [b69f0e] router     -> user             INFORM         result: Rappel : déclaration de service 2026-2027 -> administration (CONFIDENT, 0.84)
+01:38:12.562 [cb95e6] user       -> router           REQUEST        process Email[t10@test from missions@univ-example.fr 'Reimbursement of your trip to Berlin']
+01:38:12.562 [cb95e6] router     -> memory           INFORM         remember RECEIVED in t10@test
+01:38:12.565 [cb95e6] router     -> memory           REQUEST        history? thread=t10@test (raw)
+01:38:12.566 [cb95e6] memory     -> router           INFORM         1 thread entries, 0 with sender
+01:38:12.567 [cb95e6] router     -> administration   CFP            competence? 'Reimbursement of your trip to Berlin'
+01:38:12.568 [cb95e6] administration -> router           PROPOSE        bid 0.61 [evidence 3.8, sender role 'administration', subject keywords [reimbursement]]
+01:38:12.567 [cb95e6] router     -> generic          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:38:12.570 [cb95e6] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:38:12.567 [cb95e6] router     -> student          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:38:12.572 [cb95e6] student    -> router           REFUSE         no evidence of competence
+01:38:12.567 [cb95e6] router     -> supermasproject  CFP            competence? 'Reimbursement of your trip to Berlin'
+01:38:12.574 [cb95e6] supermasproject -> router           REFUSE         no evidence of competence
+01:38:12.567 [cb95e6] router     -> teacher          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:38:12.576 [cb95e6] teacher    -> router           REFUSE         no evidence of competence
+01:38:21.246 [cb95e6] router     -> administration   REQUEST        draft reply for 'Reimbursement of your trip to Berlin'
+01:38:21.247 [cb95e6] administration -> memory           REQUEST        history? thread=t10@test budget=600
+01:38:21.248 [cb95e6] memory     -> administration   INFORM         0 thread entries, 0 with sender
+01:38:38.731 [cb95e6] administration -> router           INFORM         draft by administration (198 chars, ~756 prompt tokens, 17484 ms, context [pinned/admin_procedures.md])
+01:38:38.733 [cb95e6] router     -> reviewer         REQUEST        review draft of administration
+01:38:38.735 [cb95e6] reviewer   -> router           INFORM         OK []
+01:38:38.736 [cb95e6] router     -> memory           INFORM         remember PROPOSED in t10@test
+01:38:38.738 [cb95e6] router     -> user             INFORM         result: Reimbursement of your trip to Berlin -> administration (CONFIDENT, 0.80)
+01:38:38.740 [a210bf] user       -> router           REQUEST        process Email[t01@test from tom.garcia@etu.univ-example.fr 'Meeting about my MAS project']
+01:38:38.741 [a210bf] router     -> memory           INFORM         remember RECEIVED in t01@test
+01:38:38.742 [a210bf] router     -> memory           REQUEST        history? thread=t01@test (raw)
+01:38:38.743 [a210bf] memory     -> router           INFORM         2 thread entries, 0 with sender
+01:38:38.744 [a210bf] router     -> administration   CFP            competence? 'Meeting about my MAS project'
+01:38:38.746 [a210bf] administration -> router           REFUSE         no evidence of competence
+01:38:38.744 [a210bf] router     -> generic          CFP            competence? 'Meeting about my MAS project'
+01:38:38.748 [a210bf] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:38:38.744 [a210bf] router     -> student          CFP            competence? 'Meeting about my MAS project'
+01:38:38.750 [a210bf] student    -> router           PROPOSE        bid 0.80 [evidence 6.5, sender matches *@etu.univ-example.fr, sender role 'student', body keywords [cours, course]]
+01:38:38.744 [a210bf] router     -> supermasproject  CFP            competence? 'Meeting about my MAS project'
+01:38:38.753 [a210bf] supermasproject -> router           REFUSE         no evidence of competence
+01:38:38.744 [a210bf] router     -> teacher          CFP            competence? 'Meeting about my MAS project'
+01:38:38.755 [a210bf] teacher    -> router           PROPOSE        bid 0.33 [evidence 1.6, body keywords [cours, course]]
+01:38:47.362 [a210bf] router     -> student          REQUEST        draft reply for 'Meeting about my MAS project'
+01:38:47.363 [a210bf] student    -> memory           REQUEST        history? thread=t01@test budget=700
+01:38:47.365 [a210bf] memory     -> student          INFORM         0 thread entries, 0 with sender
+01:38:56.423 [a210bf] student    -> router           INFORM         draft by student (256 chars, ~612 prompt tokens, 9060 ms, context [])
+01:38:56.425 [a210bf] router     -> reviewer         REQUEST        review draft of student
+01:38:56.426 [a210bf] reviewer   -> router           INFORM         OK []
+01:38:56.427 [a210bf] router     -> memory           INFORM         remember PROPOSED in t01@test
+01:38:56.429 [a210bf] router     -> user             INFORM         result: Meeting about my MAS project -> student (CONFIDENT, 0.90)
+01:38:56.431 [1c46cc] user       -> router           REQUEST        process Email[t02@test from ines.moreau@etu.univ-example.fr 'Examen de SMA']
+01:38:56.431 [1c46cc] router     -> memory           INFORM         remember RECEIVED in t02@test
+01:38:56.432 [1c46cc] router     -> memory           REQUEST        history? thread=t02@test (raw)
+01:38:56.432 [1c46cc] memory     -> router           INFORM         2 thread entries, 0 with sender
+01:38:56.433 [1c46cc] router     -> administration   CFP            competence? 'Examen de SMA'
+01:38:56.435 [1c46cc] administration -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [salle]]
+01:38:56.433 [1c46cc] router     -> generic          CFP            competence? 'Examen de SMA'
+01:38:56.436 [1c46cc] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:38:56.433 [1c46cc] router     -> student          CFP            competence? 'Examen de SMA'
+01:38:56.438 [1c46cc] student    -> router           PROPOSE        bid 0.86 [evidence 8.0, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [exam, examen]]
+01:38:56.433 [1c46cc] router     -> supermasproject  CFP            competence? 'Examen de SMA'
+01:38:56.440 [1c46cc] supermasproject -> router           REFUSE         no evidence of competence
+01:38:56.433 [1c46cc] router     -> teacher          CFP            competence? 'Examen de SMA'
+01:38:56.442 [1c46cc] teacher    -> router           PROPOSE        bid 0.59 [evidence 3.6, subject keywords [exam, examen]]
+01:39:09.464 [1c46cc] router     -> student          REQUEST        draft reply for 'Examen de SMA'
+01:39:09.466 [1c46cc] student    -> memory           REQUEST        history? thread=t02@test budget=700
+01:39:09.468 [1c46cc] memory     -> student          INFORM         0 thread entries, 0 with sender
+01:39:26.780 [1c46cc] student    -> router           INFORM         draft by student (309 chars, ~615 prompt tokens, 17314 ms, context [])
+01:39:26.782 [1c46cc] router     -> reviewer         REQUEST        review draft of student
+01:39:26.784 [1c46cc] reviewer   -> router           INFORM         OK []
+01:39:26.785 [1c46cc] router     -> memory           INFORM         remember PROPOSED in t02@test
+01:39:26.788 [1c46cc] router     -> user             INFORM         result: Examen de SMA -> student (CONFIDENT, 0.93)
+01:39:26.790 [eef8b6] user       -> router           REQUEST        process Email[t03@test from karim.haddad@etu.univ-example.fr 'Project deadline extension']
+01:39:26.791 [eef8b6] router     -> memory           INFORM         remember RECEIVED in t03@test
+01:39:26.791 [eef8b6] router     -> memory           REQUEST        history? thread=t03@test (raw)
+01:39:26.791 [eef8b6] memory     -> router           INFORM         2 thread entries, 0 with sender
+01:39:26.793 [eef8b6] router     -> administration   CFP            competence? 'Project deadline extension'
+01:39:26.796 [eef8b6] administration -> router           REFUSE         no evidence of competence
+01:39:26.793 [eef8b6] router     -> generic          CFP            competence? 'Project deadline extension'
+01:39:26.799 [eef8b6] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:39:26.793 [eef8b6] router     -> student          CFP            competence? 'Project deadline extension'
+01:39:26.802 [eef8b6] student    -> router           PROPOSE        bid 0.91 [evidence 9.5, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [project deadline, extension, deadline]]
+01:39:26.793 [eef8b6] router     -> supermasproject  CFP            competence? 'Project deadline extension'
+01:39:26.807 [eef8b6] supermasproject -> router           REFUSE         no evidence of competence
+01:39:26.793 [eef8b6] router     -> teacher          CFP            competence? 'Project deadline extension'
+01:39:26.810 [eef8b6] teacher    -> router           REFUSE         no evidence of competence
+01:39:35.129 [eef8b6] router     -> student          REQUEST        draft reply for 'Project deadline extension'
+01:39:35.131 [eef8b6] student    -> memory           REQUEST        history? thread=t03@test budget=700
+01:39:35.132 [eef8b6] memory     -> student          INFORM         0 thread entries, 0 with sender
+01:39:48.793 [eef8b6] student    -> router           INFORM         draft by student (320 chars, ~613 prompt tokens, 13662 ms, context [])
+01:39:48.794 [eef8b6] router     -> reviewer         REQUEST        review draft of student
+01:39:48.796 [eef8b6] reviewer   -> router           INFORM         OK []
+01:39:48.797 [eef8b6] router     -> memory           INFORM         remember PROPOSED in t03@test
+01:39:48.799 [eef8b6] router     -> user             INFORM         result: Project deadline extension -> student (CONFIDENT, 0.95)
+01:39:48.801 [f0ce02] user       -> router           REQUEST        process Email[t06@test from paul.moreau@univ-example.fr 'Groupes de TP Java la semaine prochaine']
+01:39:48.802 [f0ce02] router     -> memory           INFORM         remember RECEIVED in t06@test
+01:39:48.803 [f0ce02] router     -> memory           REQUEST        history? thread=t06@test (raw)
+01:39:48.804 [f0ce02] memory     -> router           INFORM         2 thread entries, 0 with sender
+01:39:48.805 [f0ce02] router     -> administration   CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:39:48.807 [f0ce02] administration -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [salle]]
+01:39:48.805 [f0ce02] router     -> generic          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:39:48.810 [f0ce02] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:39:48.805 [f0ce02] router     -> student          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:39:48.813 [f0ce02] student    -> router           PROPOSE        bid 0.31 [evidence 1.5, subject keywords [tp]]
+01:39:48.805 [f0ce02] router     -> supermasproject  CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:39:48.815 [f0ce02] supermasproject -> router           REFUSE         no evidence of competence
+01:39:48.805 [f0ce02] router     -> teacher          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:39:48.818 [f0ce02] teacher    -> router           PROPOSE        bid 0.71 [evidence 5.0, sender role 'lecturer', subject keywords [groupes de tp, tp]]
+01:39:58.909 [f0ce02] router     -> teacher          REQUEST        draft reply for 'Groupes de TP Java la semaine prochaine'
+01:39:58.910 [f0ce02] teacher    -> memory           REQUEST        history? thread=t06@test budget=800
+01:39:58.912 [f0ce02] memory     -> teacher          INFORM         0 thread entries, 0 with sender
+01:40:09.600 [f0ce02] teacher    -> router           INFORM         draft by teacher (250 chars, ~587 prompt tokens, 10690 ms, context [])
+01:40:09.601 [f0ce02] router     -> reviewer         REQUEST        review draft of teacher
+01:40:09.602 [f0ce02] reviewer   -> router           INFORM         OK []
+01:40:09.603 [f0ce02] router     -> memory           INFORM         remember PROPOSED in t06@test
+01:40:09.607 [f0ce02] router     -> user             INFORM         result: Groupes de TP Java la semaine prochaine -> teacher (CONFIDENT, 0.85)
+01:40:09.608 [d39d6c] user       -> router           REQUEST        process Email[t09@test from rh@univ-example.fr 'Rappel : déclaration de service 2026-2027']
+01:40:09.608 [d39d6c] router     -> memory           INFORM         remember RECEIVED in t09@test
+01:40:09.609 [d39d6c] router     -> memory           REQUEST        history? thread=t09@test (raw)
+01:40:09.610 [d39d6c] memory     -> router           INFORM         2 thread entries, 0 with sender
+01:40:09.611 [d39d6c] router     -> administration   CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:40:09.613 [d39d6c] administration -> router           PROPOSE        bid 0.68 [evidence 4.5, sender role 'administration', subject keywords [declaration de service]]
+01:40:09.611 [d39d6c] router     -> generic          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:40:09.614 [d39d6c] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:40:09.611 [d39d6c] router     -> student          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:40:09.617 [d39d6c] student    -> router           REFUSE         no evidence of competence
+01:40:09.611 [d39d6c] router     -> supermasproject  CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:40:09.620 [d39d6c] supermasproject -> router           REFUSE         no evidence of competence
+01:40:09.611 [d39d6c] router     -> teacher          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:40:09.622 [d39d6c] teacher    -> router           REFUSE         no evidence of competence
+01:40:19.431 [d39d6c] router     -> administration   REQUEST        draft reply for 'Rappel : déclaration de service 2026-2027'
+01:40:19.433 [d39d6c] administration -> memory           REQUEST        history? thread=t09@test budget=600
+01:40:19.434 [d39d6c] memory     -> administration   INFORM         0 thread entries, 0 with sender
+01:40:35.512 [d39d6c] administration -> router           INFORM         draft by administration (232 chars, ~591 prompt tokens, 16080 ms, context [])
+01:40:35.513 [d39d6c] router     -> reviewer         REQUEST        review draft of administration
+01:40:35.525 [d39d6c] reviewer   -> router           INFORM         OK []
+01:40:35.527 [d39d6c] router     -> memory           INFORM         remember PROPOSED in t09@test
+01:40:35.530 [d39d6c] router     -> user             INFORM         result: Rappel : déclaration de service 2026-2027 -> administration (CONFIDENT, 0.84)
+01:40:35.531 [651f2b] user       -> router           REQUEST        process Email[t10@test from missions@univ-example.fr 'Reimbursement of your trip to Berlin']
+01:40:35.532 [651f2b] router     -> memory           INFORM         remember RECEIVED in t10@test
+01:40:35.534 [651f2b] router     -> memory           REQUEST        history? thread=t10@test (raw)
+01:40:35.535 [651f2b] memory     -> router           INFORM         2 thread entries, 0 with sender
+01:40:35.536 [651f2b] router     -> administration   CFP            competence? 'Reimbursement of your trip to Berlin'
+01:40:35.538 [651f2b] administration -> router           PROPOSE        bid 0.61 [evidence 3.8, sender role 'administration', subject keywords [reimbursement]]
+01:40:35.536 [651f2b] router     -> generic          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:40:35.541 [651f2b] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:40:35.536 [651f2b] router     -> student          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:40:35.544 [651f2b] student    -> router           REFUSE         no evidence of competence
+01:40:35.536 [651f2b] router     -> supermasproject  CFP            competence? 'Reimbursement of your trip to Berlin'
+01:40:35.547 [651f2b] supermasproject -> router           REFUSE         no evidence of competence
+01:40:35.536 [651f2b] router     -> teacher          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:40:35.550 [651f2b] teacher    -> router           REFUSE         no evidence of competence
+01:40:45.056 [651f2b] router     -> administration   REQUEST        draft reply for 'Reimbursement of your trip to Berlin'
+01:40:45.058 [651f2b] administration -> memory           REQUEST        history? thread=t10@test budget=600
+01:40:45.059 [651f2b] memory     -> administration   INFORM         0 thread entries, 0 with sender
+01:40:57.551 [651f2b] administration -> router           INFORM         draft by administration (238 chars, ~561 prompt tokens, 12492 ms, context [])
+01:40:57.553 [651f2b] router     -> reviewer         REQUEST        review draft of administration
+01:40:57.555 [651f2b] reviewer   -> router           INFORM         OK []
+01:40:57.556 [651f2b] router     -> memory           INFORM         remember PROPOSED in t10@test
+01:40:57.559 [651f2b] router     -> user             INFORM         result: Reimbursement of your trip to Berlin -> administration (CONFIDENT, 0.80)
+01:40:57.561 [c57a6d] user       -> router           REQUEST        process Email[t01@test from tom.garcia@etu.univ-example.fr 'Meeting about my MAS project']
+01:40:57.562 [c57a6d] router     -> memory           INFORM         remember RECEIVED in t01@test
+01:40:57.563 [c57a6d] router     -> memory           REQUEST        history? thread=t01@test (raw)
+01:40:57.564 [c57a6d] memory     -> router           INFORM         3 thread entries, 0 with sender
+01:40:57.565 [c57a6d] router     -> administration   CFP            competence? 'Meeting about my MAS project'
+01:40:57.567 [c57a6d] administration -> router           REFUSE         no evidence of competence
+01:40:57.565 [c57a6d] router     -> generic          CFP            competence? 'Meeting about my MAS project'
+01:40:57.569 [c57a6d] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:40:57.565 [c57a6d] router     -> student          CFP            competence? 'Meeting about my MAS project'
+01:40:57.572 [c57a6d] student    -> router           PROPOSE        bid 0.80 [evidence 6.5, sender matches *@etu.univ-example.fr, sender role 'student', body keywords [cours, course]]
+01:40:57.565 [c57a6d] router     -> supermasproject  CFP            competence? 'Meeting about my MAS project'
+01:40:57.574 [c57a6d] supermasproject -> router           REFUSE         no evidence of competence
+01:40:57.565 [c57a6d] router     -> teacher          CFP            competence? 'Meeting about my MAS project'
+01:40:57.576 [c57a6d] teacher    -> router           PROPOSE        bid 0.33 [evidence 1.6, body keywords [cours, course]]
+01:41:06.119 [c57a6d] router     -> student          REQUEST        draft reply for 'Meeting about my MAS project'
+01:41:06.120 [c57a6d] student    -> memory           REQUEST        history? thread=t01@test budget=700
+01:41:06.122 [c57a6d] memory     -> student          INFORM         0 thread entries, 0 with sender
+01:41:42.979 [c57a6d] student    -> router           INFORM         draft by student (295 chars, ~1024 prompt tokens, 36859 ms, context [pinned/course_info.md, mas_course_faq.md])
+01:41:42.980 [c57a6d] router     -> reviewer         REQUEST        review draft of student
+01:41:42.982 [c57a6d] reviewer   -> router           INFORM         OK []
+01:41:42.983 [c57a6d] router     -> memory           INFORM         remember PROPOSED in t01@test
+01:41:42.985 [c57a6d] router     -> user             INFORM         result: Meeting about my MAS project -> student (CONFIDENT, 0.90)
+01:41:42.986 [1c2345] user       -> router           REQUEST        process Email[t02@test from ines.moreau@etu.univ-example.fr 'Examen de SMA']
+01:41:42.987 [1c2345] router     -> memory           INFORM         remember RECEIVED in t02@test
+01:41:42.988 [1c2345] router     -> memory           REQUEST        history? thread=t02@test (raw)
+01:41:42.989 [1c2345] memory     -> router           INFORM         3 thread entries, 0 with sender
+01:41:42.990 [1c2345] router     -> administration   CFP            competence? 'Examen de SMA'
+01:41:42.992 [1c2345] administration -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [salle]]
+01:41:42.990 [1c2345] router     -> generic          CFP            competence? 'Examen de SMA'
+01:41:42.993 [1c2345] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:41:42.990 [1c2345] router     -> student          CFP            competence? 'Examen de SMA'
+01:41:42.995 [1c2345] student    -> router           PROPOSE        bid 0.86 [evidence 8.0, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [exam, examen]]
+01:41:42.990 [1c2345] router     -> supermasproject  CFP            competence? 'Examen de SMA'
+01:41:42.997 [1c2345] supermasproject -> router           REFUSE         no evidence of competence
+01:41:42.990 [1c2345] router     -> teacher          CFP            competence? 'Examen de SMA'
+01:41:42.999 [1c2345] teacher    -> router           PROPOSE        bid 0.59 [evidence 3.6, subject keywords [exam, examen]]
+01:41:56.278 [1c2345] router     -> student          REQUEST        draft reply for 'Examen de SMA'
+01:41:56.280 [1c2345] student    -> memory           REQUEST        history? thread=t02@test budget=700
+01:41:56.282 [1c2345] memory     -> student          INFORM         0 thread entries, 0 with sender
+01:42:25.890 [1c2345] student    -> router           INFORM         draft by student (279 chars, ~714 prompt tokens, 29610 ms, context [pinned/course_info.md])
+01:42:25.892 [1c2345] router     -> reviewer         REQUEST        review draft of student
+01:42:25.894 [1c2345] reviewer   -> router           INFORM         OK []
+01:42:25.896 [1c2345] router     -> memory           INFORM         remember PROPOSED in t02@test
+01:42:25.901 [1c2345] router     -> user             INFORM         result: Examen de SMA -> student (CONFIDENT, 0.93)
+01:42:25.903 [4df12e] user       -> router           REQUEST        process Email[t03@test from karim.haddad@etu.univ-example.fr 'Project deadline extension']
+01:42:25.905 [4df12e] router     -> memory           INFORM         remember RECEIVED in t03@test
+01:42:25.906 [4df12e] router     -> memory           REQUEST        history? thread=t03@test (raw)
+01:42:25.907 [4df12e] memory     -> router           INFORM         3 thread entries, 0 with sender
+01:42:25.909 [4df12e] router     -> administration   CFP            competence? 'Project deadline extension'
+01:42:25.910 [4df12e] administration -> router           REFUSE         no evidence of competence
+01:42:25.909 [4df12e] router     -> generic          CFP            competence? 'Project deadline extension'
+01:42:25.912 [4df12e] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:42:25.909 [4df12e] router     -> student          CFP            competence? 'Project deadline extension'
+01:42:25.915 [4df12e] student    -> router           PROPOSE        bid 0.91 [evidence 9.5, sender matches *@etu.univ-example.fr, sender role 'student', subject keywords [project deadline, extension, deadline]]
+01:42:25.909 [4df12e] router     -> supermasproject  CFP            competence? 'Project deadline extension'
+01:42:25.917 [4df12e] supermasproject -> router           REFUSE         no evidence of competence
+01:42:25.909 [4df12e] router     -> teacher          CFP            competence? 'Project deadline extension'
+01:42:25.919 [4df12e] teacher    -> router           REFUSE         no evidence of competence
+01:42:33.864 [4df12e] router     -> student          REQUEST        draft reply for 'Project deadline extension'
+01:42:33.865 [4df12e] student    -> memory           REQUEST        history? thread=t03@test budget=700
+01:42:33.867 [4df12e] memory     -> student          INFORM         0 thread entries, 0 with sender
+01:43:00.643 [4df12e] student    -> router           INFORM         draft by student (97 chars, ~893 prompt tokens, 26778 ms, context [pinned/course_info.md, mas_course_faq.md])
+01:43:00.645 [4df12e] router     -> reviewer         REQUEST        review draft of student
+01:43:00.646 [4df12e] reviewer   -> router           INFORM         OK []
+01:43:00.647 [4df12e] router     -> memory           INFORM         remember PROPOSED in t03@test
+01:43:00.648 [4df12e] router     -> user             INFORM         result: Project deadline extension -> student (CONFIDENT, 0.95)
+01:43:00.649 [3ad89b] user       -> router           REQUEST        process Email[t06@test from paul.moreau@univ-example.fr 'Groupes de TP Java la semaine prochaine']
+01:43:00.651 [3ad89b] router     -> memory           INFORM         remember RECEIVED in t06@test
+01:43:00.651 [3ad89b] router     -> memory           REQUEST        history? thread=t06@test (raw)
+01:43:00.653 [3ad89b] memory     -> router           INFORM         3 thread entries, 0 with sender
+01:43:00.654 [3ad89b] router     -> administration   CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:43:00.656 [3ad89b] administration -> router           PROPOSE        bid 0.18 [evidence 0.8, body keywords [salle]]
+01:43:00.654 [3ad89b] router     -> generic          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:43:00.657 [3ad89b] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:43:00.654 [3ad89b] router     -> student          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:43:00.660 [3ad89b] student    -> router           PROPOSE        bid 0.31 [evidence 1.5, subject keywords [tp]]
+01:43:00.654 [3ad89b] router     -> supermasproject  CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:43:00.662 [3ad89b] supermasproject -> router           REFUSE         no evidence of competence
+01:43:00.654 [3ad89b] router     -> teacher          CFP            competence? 'Groupes de TP Java la semaine prochaine'
+01:43:00.664 [3ad89b] teacher    -> router           PROPOSE        bid 0.71 [evidence 5.0, sender role 'lecturer', subject keywords [groupes de tp, tp]]
+01:43:10.492 [3ad89b] router     -> teacher          REQUEST        draft reply for 'Groupes de TP Java la semaine prochaine'
+01:43:10.494 [3ad89b] teacher    -> memory           REQUEST        history? thread=t06@test budget=800
+01:43:10.496 [3ad89b] memory     -> teacher          INFORM         0 thread entries, 0 with sender
+01:43:37.678 [3ad89b] teacher    -> router           INFORM         draft by teacher (335 chars, ~605 prompt tokens, 27185 ms, context [pinned/teaching_team.md])
+01:43:37.680 [3ad89b] router     -> reviewer         REQUEST        review draft of teacher
+01:43:37.681 [3ad89b] reviewer   -> router           INFORM         OK []
+01:43:37.683 [3ad89b] router     -> memory           INFORM         remember PROPOSED in t06@test
+01:43:37.686 [3ad89b] router     -> user             INFORM         result: Groupes de TP Java la semaine prochaine -> teacher (CONFIDENT, 0.85)
+01:43:37.687 [b2de1d] user       -> router           REQUEST        process Email[t09@test from rh@univ-example.fr 'Rappel : déclaration de service 2026-2027']
+01:43:37.689 [b2de1d] router     -> memory           INFORM         remember RECEIVED in t09@test
+01:43:37.690 [b2de1d] router     -> memory           REQUEST        history? thread=t09@test (raw)
+01:43:37.691 [b2de1d] memory     -> router           INFORM         3 thread entries, 0 with sender
+01:43:37.692 [b2de1d] router     -> administration   CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:43:37.694 [b2de1d] administration -> router           PROPOSE        bid 0.68 [evidence 4.5, sender role 'administration', subject keywords [declaration de service]]
+01:43:37.692 [b2de1d] router     -> generic          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:43:37.696 [b2de1d] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:43:37.692 [b2de1d] router     -> student          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:43:37.700 [b2de1d] student    -> router           REFUSE         no evidence of competence
+01:43:37.692 [b2de1d] router     -> supermasproject  CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:43:37.703 [b2de1d] supermasproject -> router           REFUSE         no evidence of competence
+01:43:37.692 [b2de1d] router     -> teacher          CFP            competence? 'Rappel : déclaration de service 2026-2027'
+01:43:37.704 [b2de1d] teacher    -> router           REFUSE         no evidence of competence
+01:43:47.283 [b2de1d] router     -> administration   REQUEST        draft reply for 'Rappel : déclaration de service 2026-2027'
+01:43:47.284 [b2de1d] administration -> memory           REQUEST        history? thread=t09@test budget=600
+01:43:47.285 [b2de1d] memory     -> administration   INFORM         0 thread entries, 0 with sender
+01:44:10.770 [b2de1d] administration -> router           INFORM         draft by administration (263 chars, ~565 prompt tokens, 23486 ms, context [pinned/admin_procedures.md])
+01:44:10.772 [b2de1d] router     -> reviewer         REQUEST        review draft of administration
+01:44:10.773 [b2de1d] reviewer   -> router           INFORM         OK []
+01:44:10.774 [b2de1d] router     -> memory           INFORM         remember PROPOSED in t09@test
+01:44:10.777 [b2de1d] router     -> user             INFORM         result: Rappel : déclaration de service 2026-2027 -> administration (CONFIDENT, 0.84)
+01:44:10.778 [a9d4f3] user       -> router           REQUEST        process Email[t10@test from missions@univ-example.fr 'Reimbursement of your trip to Berlin']
+01:44:10.779 [a9d4f3] router     -> memory           INFORM         remember RECEIVED in t10@test
+01:44:10.780 [a9d4f3] router     -> memory           REQUEST        history? thread=t10@test (raw)
+01:44:10.781 [a9d4f3] memory     -> router           INFORM         3 thread entries, 0 with sender
+01:44:10.782 [a9d4f3] router     -> administration   CFP            competence? 'Reimbursement of your trip to Berlin'
+01:44:10.783 [a9d4f3] administration -> router           PROPOSE        bid 0.61 [evidence 3.8, sender role 'administration', subject keywords [reimbursement]]
+01:44:10.782 [a9d4f3] router     -> generic          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:44:10.785 [a9d4f3] generic    -> router           REFUSE         fallback agent: only used when no specialist fits
+01:44:10.782 [a9d4f3] router     -> student          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:44:10.788 [a9d4f3] student    -> router           REFUSE         no evidence of competence
+01:44:10.782 [a9d4f3] router     -> supermasproject  CFP            competence? 'Reimbursement of your trip to Berlin'
+01:44:10.791 [a9d4f3] supermasproject -> router           REFUSE         no evidence of competence
+01:44:10.782 [a9d4f3] router     -> teacher          CFP            competence? 'Reimbursement of your trip to Berlin'
+01:44:10.793 [a9d4f3] teacher    -> router           REFUSE         no evidence of competence
+01:44:19.322 [a9d4f3] router     -> administration   REQUEST        draft reply for 'Reimbursement of your trip to Berlin'
+01:44:19.324 [a9d4f3] administration -> memory           REQUEST        history? thread=t10@test budget=600
+01:44:19.325 [a9d4f3] memory     -> administration   INFORM         0 thread entries, 0 with sender
+01:44:38.225 [a9d4f3] administration -> router           INFORM         draft by administration (210 chars, ~535 prompt tokens, 18901 ms, context [pinned/admin_procedures.md])
+01:44:38.227 [a9d4f3] router     -> reviewer         REQUEST        review draft of administration
+01:44:38.228 [a9d4f3] reviewer   -> router           INFORM         OK []
+01:44:38.229 [a9d4f3] router     -> memory           INFORM         remember PROPOSED in t10@test
+01:44:38.231 [a9d4f3] router     -> user             INFORM         result: Reimbursement of your trip to Berlin -> administration (CONFIDENT, 0.80)
+01:44:38.232 [1d120a] user       -> router           REQUEST        process Email[t01@test from tom.garcia@etu.univ-example.fr 'Meeting about my MAS project'] forced=generic
+01:44:38.233 [1d120a] router     -> memory           INFORM         remember RECEIVED in t01@test
+01:44:38.234 [1d120a] router     -> generic          REQUEST        draft reply for 'Meeting about my MAS project'
+01:44:38.235 [1d120a] generic    -> memory           REQUEST        history? thread=t01@test budget=600
+01:44:38.236 [1d120a] memory     -> generic          INFORM         0 thread entries, 0 with sender
+01:44:54.478 [1d120a] generic    -> router           INFORM         draft by generic (146 chars, ~537 prompt tokens, 16244 ms, context [])
+01:44:54.479 [1d120a] router     -> reviewer         REQUEST        review draft of generic
+01:44:54.480 [1d120a] reviewer   -> router           INFORM         OK []
+01:44:54.481 [1d120a] router     -> memory           INFORM         remember PROPOSED in t01@test
+01:44:54.484 [1d120a] router     -> user             INFORM         result: Meeting about my MAS project -> generic (MANUAL, 1.00)
+01:44:54.485 [420a7b] user       -> router           REQUEST        process Email[t02@test from ines.moreau@etu.univ-example.fr 'Examen de SMA'] forced=generic
+01:44:54.486 [420a7b] router     -> memory           INFORM         remember RECEIVED in t02@test
+01:44:54.487 [420a7b] router     -> generic          REQUEST        draft reply for 'Examen de SMA'
+01:44:54.488 [420a7b] generic    -> memory           REQUEST        history? thread=t02@test budget=600
+01:44:54.489 [420a7b] memory     -> generic          INFORM         0 thread entries, 0 with sender
+01:45:06.259 [420a7b] generic    -> router           INFORM         draft by generic (195 chars, ~540 prompt tokens, 11771 ms, context [])
+01:45:06.261 [420a7b] router     -> reviewer         REQUEST        review draft of generic
+01:45:06.263 [420a7b] reviewer   -> router           INFORM         OK []
+01:45:06.264 [420a7b] router     -> memory           INFORM         remember PROPOSED in t02@test
+01:45:06.267 [420a7b] router     -> user             INFORM         result: Examen de SMA -> generic (MANUAL, 1.00)
+01:45:06.268 [d47c1a] user       -> router           REQUEST        process Email[t03@test from karim.haddad@etu.univ-example.fr 'Project deadline extension'] forced=generic
+01:45:06.270 [d47c1a] router     -> memory           INFORM         remember RECEIVED in t03@test
+01:45:06.271 [d47c1a] router     -> generic          REQUEST        draft reply for 'Project deadline extension'
+01:45:06.272 [d47c1a] generic    -> memory           REQUEST        history? thread=t03@test budget=600
+01:45:06.273 [d47c1a] memory     -> generic          INFORM         0 thread entries, 0 with sender
+01:45:13.533 [d47c1a] generic    -> router           INFORM         draft by generic (183 chars, ~538 prompt tokens, 7261 ms, context [])
+01:45:13.535 [d47c1a] router     -> reviewer         REQUEST        review draft of generic
+01:45:13.536 [d47c1a] reviewer   -> router           INFORM         OK []
+01:45:13.537 [d47c1a] router     -> memory           INFORM         remember PROPOSED in t03@test
+01:45:13.539 [d47c1a] router     -> user             INFORM         result: Project deadline extension -> generic (MANUAL, 1.00)
+01:45:13.540 [cad476] user       -> router           REQUEST        process Email[t06@test from paul.moreau@univ-example.fr 'Groupes de TP Java la semaine prochaine'] forced=generic
+01:45:13.541 [cad476] router     -> memory           INFORM         remember RECEIVED in t06@test
+01:45:13.542 [cad476] router     -> generic          REQUEST        draft reply for 'Groupes de TP Java la semaine prochaine'
+01:45:13.543 [cad476] generic    -> memory           REQUEST        history? thread=t06@test budget=600
+01:45:13.544 [cad476] memory     -> generic          INFORM         0 thread entries, 0 with sender
+01:45:22.620 [cad476] generic    -> router           INFORM         draft by generic (219 chars, ~553 prompt tokens, 9076 ms, context [])
+01:45:22.621 [cad476] router     -> reviewer         REQUEST        review draft of generic
+01:45:22.623 [cad476] reviewer   -> router           INFORM         OK []
+01:45:22.624 [cad476] router     -> memory           INFORM         remember PROPOSED in t06@test
+01:45:22.627 [cad476] router     -> user             INFORM         result: Groupes de TP Java la semaine prochaine -> generic (MANUAL, 1.00)
+01:45:22.628 [6030d7] user       -> router           REQUEST        process Email[t09@test from rh@univ-example.fr 'Rappel : déclaration de service 2026-2027'] forced=generic
+01:45:22.628 [6030d7] router     -> memory           INFORM         remember RECEIVED in t09@test
+01:45:22.629 [6030d7] router     -> generic          REQUEST        draft reply for 'Rappel : déclaration de service 2026-2027'
+01:45:22.631 [6030d7] generic    -> memory           REQUEST        history? thread=t09@test budget=600
+01:45:22.632 [6030d7] memory     -> generic          INFORM         0 thread entries, 0 with sender
+01:45:34.308 [6030d7] generic    -> router           INFORM         draft by generic (253 chars, ~562 prompt tokens, 11677 ms, context [])
+01:45:34.310 [6030d7] router     -> reviewer         REQUEST        review draft of generic
+01:45:34.312 [6030d7] reviewer   -> router           INFORM         OK []
+01:45:34.314 [6030d7] router     -> memory           INFORM         remember PROPOSED in t09@test
+01:45:34.317 [6030d7] router     -> user             INFORM         result: Rappel : déclaration de service 2026-2027 -> generic (MANUAL, 1.00)
+01:45:34.318 [53b788] user       -> router           REQUEST        process Email[t10@test from missions@univ-example.fr 'Reimbursement of your trip to Berlin'] forced=generic
+01:45:34.319 [53b788] router     -> memory           INFORM         remember RECEIVED in t10@test
+01:45:34.320 [53b788] router     -> generic          REQUEST        draft reply for 'Reimbursement of your trip to Berlin'
+01:45:34.321 [53b788] generic    -> memory           REQUEST        history? thread=t10@test budget=600
+01:45:34.322 [53b788] memory     -> generic          INFORM         0 thread entries, 0 with sender
+01:45:42.116 [53b788] generic    -> router           INFORM         draft by generic (216 chars, ~532 prompt tokens, 7795 ms, context [])
+01:45:42.117 [53b788] router     -> reviewer         REQUEST        review draft of generic
+01:45:42.119 [53b788] reviewer   -> router           INFORM         OK []
+01:45:42.120 [53b788] router     -> memory           INFORM         remember PROPOSED in t10@test
+01:45:42.122 [53b788] router     -> user             INFORM         result: Reimbursement of your trip to Berlin -> generic (MANUAL, 1.00)

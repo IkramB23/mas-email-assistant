@@ -1,0 +1,15 @@
+Message-ID: <t03@test>
+Date: 2026-11-06 09:00
+From: Karim Haddad <karim.haddad@etu.univ-example.fr>
+To: alex.martin@univ-example.fr
+Subject: Project deadline extension
+X-Expected-Agent: student
+X-Scenario: Student asks for an extension of the project deadline (policy must be applied)
+X-Expected-Facts: scolarite-m2ia@univ-example.fr
+
+Dear Professor,
+
+I was sick last week and could not work on the project. Could I submit it one week after the deadline?
+
+Best regards,
+Karim Haddad

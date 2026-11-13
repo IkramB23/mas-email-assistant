@@ -1,0 +1,15 @@
+Message-ID: <t01@test>
+Date: 2026-11-05 10:00
+From: Tom Garcia <tom.garcia@etu.univ-example.fr>
+To: alex.martin@univ-example.fr
+Subject: Meeting about my MAS project
+X-Expected-Agent: student
+X-Scenario: Student asks when he can meet the teacher about the course project
+X-Expected-Facts: Tuesday; 14
+
+Hello,
+
+I am in the M2 AI and I have some doubts about the architecture of our project for the MAS course. When could I come and see you to discuss it?
+
+Thanks,
+Tom

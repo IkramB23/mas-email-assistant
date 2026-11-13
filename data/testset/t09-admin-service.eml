@@ -1,0 +1,15 @@
+Message-ID: <t09@test>
+Date: 2026-11-08 09:00
+From: Ressources humaines <rh@univ-example.fr>
+To: alex.martin@univ-example.fr
+Subject: Rappel : déclaration de service 2026-2027
+X-Expected-Agent: administration
+X-Scenario: HR reminder about the annual service declaration
+X-Expected-Facts: OSE
+
+Bonjour,
+
+Nous vous rappelons que votre déclaration de service pour l'année 2026-2027 n'a pas encore été complétée. Merci de nous indiquer quand vous pourrez la finaliser.
+
+Cordialement,
+Service RH

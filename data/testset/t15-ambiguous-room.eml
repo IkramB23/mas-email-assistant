@@ -1,0 +1,13 @@
+Message-ID: <t15@test>
+Date: 2026-11-10 09:00
+From: Claire Dubois <claire.dubois@univ-example.fr>
+To: alex.martin@univ-example.fr
+Subject: Salle pour jeudi
+X-Expected-Agent: teacher|supermasproject|administration
+X-Scenario: Ambiguous - room booking for student defenses then the project plenary
+
+Salut Alex,
+
+Tu peux réserver la salle B12 jeudi ? Le matin pour les soutenances des étudiants, l'après-midi pour la réunion plénière du projet.
+
+Claire

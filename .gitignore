@@ -1,0 +1,23 @@
+# build outputs
+build/
+target/
+mail-assistant.jar
+
+# files created when the program runs
+logs/
+data/memory/
+data/mail/outbox/
+
+# temporary memories of the experiments (the eval-*.md reports and traces are kept)
+results/memory-*/
+
+# course material (not part of the project)
+courses/
+
+# scripts used to generate the report
+docs/report/source/
+
+# Office lock files and IDE settings
+~$*
+.vscode/
+.idea/

@@ -1,0 +1,14 @@
+Message-ID: <t13@test>
+Date: 2026-11-09 10:00
+From: Nadia Benali <n.benali@agentworks.example.com>
+To: alex.martin@univ-example.fr
+Subject: Intégration dans le démonstrateur
+X-Expected-Agent: supermasproject
+X-Scenario: Industrial partner asks how to deliver the protocol for the demonstrator
+X-Expected-Facts: gitlab; NegotiationProtocol
+
+Salut Alex,
+
+Comment est-ce qu'on récupère ton module de coordination par vote pour l'intégrer ? Et sous quelle forme tu comptes nous le livrer ?
+
+Nadia

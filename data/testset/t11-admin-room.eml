@@ -1,0 +1,14 @@
+Message-ID: <t11@test>
+Date: 2026-11-08 11:00
+From: Service planning <planning@univ-example.fr>
+To: alex.martin@univ-example.fr
+Subject: Votre demande de réservation de salle
+X-Expected-Agent: administration
+X-Scenario: Planning office about a room booking request
+
+Bonjour,
+
+Votre demande de réservation de la salle B12 pour le 19 novembre ne précise pas les horaires. Pouvez-vous nous les communiquer ?
+
+Cordialement,
+Service planning

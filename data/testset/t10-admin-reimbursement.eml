@@ -1,0 +1,15 @@
+Message-ID: <t10@test>
+Date: 2026-11-08 10:00
+From: Service des missions <missions@univ-example.fr>
+To: alex.martin@univ-example.fr
+Subject: Reimbursement of your trip to Berlin
+X-Expected-Agent: administration
+X-Scenario: Missions office about a travel reimbursement
+X-Expected-Facts: receipts
+
+Dear Dr. Martin,
+
+To process the reimbursement of your trip to Berlin in October, we still need some documents. Could you send them to us?
+
+Regards,
+Mme Petit

@@ -1,0 +1,14 @@
+Message-ID: <inbox-01@etu.univ-example.fr>
+Date: 2026-11-09 18:42
+From: Léa Bernard <lea.bernard@etu.univ-example.fr>
+To: alex.martin@univ-example.fr
+Subject: Question sur l'exercice BDI du cours SMA
+
+Bonjour Monsieur,
+
+Dans l'exercice 2 du chapitre 1, je ne comprends pas bien la différence entre un désir et une intention : les deux ne sont-ils pas des buts de l'agent ?
+
+Aussi, est-ce qu'il faut obligatoirement implémenter la boucle BDI améliorée dans le projet ?
+
+Merci beaucoup,
+Léa Bernard

@@ -1,0 +1,11 @@
+# address;name;role;tags (comma separated);notes
+*@etu.univ-example.fr;;student;;Student of Universite Exemple
+claire.dubois@univ-example.fr;Claire Dubois;lecturer;supermasproject;Close colleague (uses "tu"), co-teaches the MAS course, WP3 leader in SuperMASProject
+paul.moreau@univ-example.fr;Paul Moreau;lecturer;;Co-teaches Java OOP (lab groups 2 and 3)
+marc.leroy@univ-example.fr;Marc Leroy;lecturer;supermasproject;Professor, head of the M2 AI, coordinator of SuperMASProject
+scolarite-m2ia@univ-example.fr;Scolarite M2 IA;administration;;Student affairs office of the M2 AI
+missions@univ-example.fr;Service des missions;administration;;Travel and mission orders (Mme Petit)
+rh@univ-example.fr;Ressources humaines;administration;;HR department
+planning@univ-example.fr;Service planning;administration;;Room booking and timetables
+j.schmidt@tu-example.de;Jonas Schmidt;partner;supermasproject;TU Example (Germany), WP2 leader - always write in English
+n.benali@agentworks.example.com;Nadia Benali;partner;supermasproject;AgentWorks SAS (industrial partner), WP4 demonstrator lead, informal tone OK

@@ -1,0 +1,15 @@
+Message-ID: <t12@test>
+Date: 2026-11-09 09:00
+From: Jonas Schmidt <j.schmidt@tu-example.de>
+To: alex.martin@univ-example.fr
+Subject: D3.1 timeline
+X-Expected-Agent: supermasproject
+X-Scenario: Project partner (EN) asks about the D3.1 timeline
+X-Expected-Facts: 28; 12
+
+Hi Alex,
+
+I need to plan the evaluation section of D3.1. Could you remind me of the internal review date and of the final submission date?
+
+Thanks,
+Jonas

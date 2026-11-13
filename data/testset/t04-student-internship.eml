@@ -1,0 +1,14 @@
+Message-ID: <t04@test>
+Date: 2026-11-06 14:00
+From: Sarah Petit <sarah.petit@etu.univ-example.fr>
+To: alex.martin@univ-example.fr
+Subject: Recherche de stage
+X-Expected-Agent: student
+X-Scenario: Student asks for advice about an internship
+
+Bonjour Monsieur Martin,
+
+Je cherche un stage de fin d'études en systèmes multi-agents. Auriez-vous des conseils ou des contacts d'entreprises ?
+
+Bien cordialement,
+Sarah Petit

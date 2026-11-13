@@ -1,0 +1,15 @@
+Message-ID: <t02@test>
+Date: 2026-11-05 11:00
+From: Inès Moreau <ines.moreau@etu.univ-example.fr>
+To: alex.martin@univ-example.fr
+Subject: Examen de SMA
+X-Expected-Agent: student
+X-Scenario: Student (FR) asks for the date and room of the MAS exam
+X-Expected-Facts: A101; 2027
+
+Bonjour Monsieur,
+
+Pourriez-vous m'indiquer la date et la salle de l'examen final de SMA ? Les documents sont-ils autorisés ?
+
+Merci,
+Inès Moreau

@@ -1,0 +1,15 @@
+Message-ID: <t06@test>
+Date: 2026-11-07 09:00
+From: Paul Moreau <paul.moreau@univ-example.fr>
+To: alex.martin@univ-example.fr
+Subject: Groupes de TP Java la semaine prochaine
+X-Expected-Agent: teacher
+X-Scenario: Fellow lecturer asks about lab groups organisation
+X-Expected-Facts: E201
+
+Bonjour Alex,
+
+Pour les TP de Java de la semaine prochaine, dans quelles salles sommes-nous ? Et est-ce que tu gardes le groupe 1 comme prévu ?
+
+Merci,
+Paul

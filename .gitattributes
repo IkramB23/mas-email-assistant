@@ -1,0 +1,7 @@
+# keep unix line endings in the repository (build.sh must run on linux and macos)
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.png binary
+*.pdf binary
+*.docx binary
+*.jar binary

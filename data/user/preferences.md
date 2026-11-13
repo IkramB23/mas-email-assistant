@@ -1,0 +1,5 @@
+- Be courteous, clear and concise: short paragraphs, no unnecessary formulas.
+- In French, use "vous" with students and administration, "tu" with close colleagues only if they use it first.
+- Never give my personal mobile number nor my personal email address; my office phone is 01 23 45 67 89.
+- I do not hold meetings on Wednesday afternoons (teaching).
+- When I cannot answer precisely, say that I will check and come back quickly rather than guessing.
