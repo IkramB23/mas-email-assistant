@@ -1,6 +1,6 @@
 # Multi-agent email assistant with local LLMs
 
-Java framework in which an organisation of agents proposes replies to emails, using only a
+Java framework in which an   organisation of agents proposes replies to emails, using only a
 language model running **locally** (Ollama, LM Studio, llama.cpp...). A router agent selects the
 most suitable specialised agent (students, colleagues, administration, research project...). That
 agent drafts a reply with **its own system prompt and its own private context**. A reviewer agent
